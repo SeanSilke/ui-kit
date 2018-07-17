@@ -4,34 +4,35 @@
   "description": "",
   "main": "build/index.js",
   "peerDependencies": {
-    "react": "^15.5.4"
+    "react": "^15.4.2",
+    "react-dom": "^15.3.2"
   },
   "dependencies": {
-    "babel-eslint": "^8.2.6",
-    "eslint": "^5.1.0",
-    "eslint-plugin-import": "^2.13.0",
-    "eslint-plugin-react": "^7.10.0",
-    "react": "^15.5.4",
-    "webpack": "^2.6.1",
     "material-ui": "^0.17.0"
   },
   "scripts": {
+    "prebuild": "rimraf build",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack --watch",
-    "build": "webpack"
+    "start": "babel --watch ./src --out-dir ./build --ignore *.stories.js",
+    "build": "babel ./src --out-dir ./build --ignore *.stories.js",
+    "build:es2015": "babel --watch ./src --out-dir ./build --ignore *.stories.js"
   },
   "author": {
     "name": "Sergey Orlov",
     "email": "OrlovMail@gmail.com"
   },
   "devDependencies": {
-    "babel-cli": "^6.24.1",
-    "babel-core": "^6.24.1",
     "babel-loader": "^7.0.0",
-    "babel-plugin-transform-object-rest-spread": "^6.23.0",
-    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "rimraf": "^2.6.2",
+    "babel-eslint": "^8.2.6",
+    "eslint": "^5.1.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-react": "^7.10.0",
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.2.1",
     "babel-preset-env": "^1.5.1",
-    "emit-file-loader": "0.0.2"
+    "babel-preset-react": "^6.1.18",
+    "babel-preset-stage-2": "^6.1.18"
   },
   "bugs": {
     "url": "https://github.com/SirenaTravel/modelViewer-UI/issues"
