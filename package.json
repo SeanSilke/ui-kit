@@ -10,7 +10,8 @@
     "react-dom": "^15.3.2"
   },
   "dependencies": {
-    "react-syntax-highlighter": "^8.0.1"
+    "react-syntax-highlighter": "^8.0.1",
+    "react-transition-group": "^2.4.0"
   },
   "scripts": {
     "prebuild": "rimraf build",
