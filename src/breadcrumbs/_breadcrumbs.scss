@@ -1,0 +1,87 @@
+$primary1Color: #009688;
+$canvasColor: #ffffff;
+$alternateTextColor: #ffffff;
+$textColor: #b8b8b8;
+$timingFunction: cubic-bezier(0.23, 1, 0.32, 1);
+
+.breadcrumbs {
+  font-size: 16px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  white-space: nowrap;
+  overflow: hidden;
+
+  &--track {
+    display: flex;
+    transition: transform 450ms $timingFunction;
+  }
+
+  &--item {
+    display: inline-flex;
+    align-items: center;
+  }
+
+  &--separator {
+    display: inline-flex;
+    align-items: center;
+  }
+
+  &--separatorIcon {
+    margin-top: -2px;
+  }
+
+  &--text {
+    color: $textColor;
+  }
+
+  &--control {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    cursor: pointer;
+    background-blend-mode: overlay;
+    background-image: linear-gradient($primary1Color, $primary1Color);
+    transition: all 800ms $timingFunction;
+    &-left {
+      left: 0px;
+      &:after {
+        content: '';
+        background-color: $primary1Color;
+        height: 100%;
+        width: 4px;
+      }
+    }
+    &-right {
+      right: 0px;
+      &:before {
+        content: '';
+        background-color: $primary1Color;
+        height: 100%;
+        width: 4px;
+      }
+    }
+    &-faded {
+      opacity: 0;
+      z-index: -1;
+    }
+    &:hover:not(&-faded) {
+      background-color: rgba($canvasColor, 0.7);
+      .breadcrumbs--contrlIcon {
+        color: $primary1Color !important;
+        opacity: 0.5;
+      }
+    }
+  }
+
+  &--link {
+    color: $alternateTextColor;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
