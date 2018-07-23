@@ -6,3 +6,4 @@ export { XmlPanel } from './xml-panel';
 export { LinkAway } from './link-away';
 export { AnimationManager } from './animation/animation-manager';
 export { Breadcrumbs } from './breadcrumbs';
+export { Login } from './login';
