@@ -7,3 +7,4 @@ export { LinkAway } from './link-away';
 export { AnimationManager } from './animation/animation-manager';
 export { Breadcrumbs } from './breadcrumbs';
 export { Login } from './login';
+export { NavMenu } from './nav-menu';
