@@ -1,12 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import DrawerUI from 'material-ui/Drawer';
+import Drawer from 'material-ui/Drawer';
 import AppBar from 'material-ui/AppBar';
 import IconButton from 'material-ui/IconButton';
 import NavigationClose from 'material-ui/svg-icons/navigation/close';
 
-const Drawer = ({ open, handleToggle, children }) => (
-  <DrawerUI open={open}>
+const MenuDrawer = ({ open, handleToggle, children }) => (
+  <Drawer open={open} docked={false}>
     <AppBar
       iconElementLeft={
         <IconButton>
@@ -16,11 +16,11 @@ const Drawer = ({ open, handleToggle, children }) => (
       onLeftIconButtonTouchTap={handleToggle}
     />
     {children}
-  </DrawerUI>
+  </Drawer>
 );
 
-Drawer.propTypes = {
+MenuDrawer.propTypes = {
   handleToggle: PropTypes.func.isRequired
 };
 
-export { Drawer };
+export { MenuDrawer };
