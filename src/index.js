@@ -11,4 +11,5 @@ export { Login } from './login';
 export { NavMenu } from './nav-menu';
 export { MenuDrawer } from './drawer';
 export { NavLink } from './nav-link';
-export { Notification} from './notification';
+export { Notification } from './notification';
+export { NotificationsDrawer } from './notifications-drawer';
