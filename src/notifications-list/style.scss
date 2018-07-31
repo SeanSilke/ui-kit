@@ -1,0 +1,39 @@
+.notificationsList {
+  position: fixed;
+  z-index: 10000;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+}
+
+.notification-appear {
+  transform: scale(0);
+  transition: 300ms ease-in-out;
+}
+
+.notification-appear.notification-appear-active {
+  transform: scale(1.1);
+  transition: 300ms ease-in-out;
+}
+
+.notification-enter {
+  transition: 300ms ease-in-out;
+  transform: scale(1);
+}
+
+.notification-enter.notification-enter-active {
+  transform: scale(0);
+  transition: 300ms ease-in-out;
+}
+
+.notification-leave {
+  transition: 300ms ease-in-out;
+  transform: scale(1.1);
+}
+
+.notification-leave.notification-leave-active {
+  transform: scale(0);
+  transition: 300ms ease-in;
+}
