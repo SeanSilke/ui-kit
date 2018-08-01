@@ -14,3 +14,4 @@ export { NavLink } from './nav-link';
 export { Notification } from './notification';
 export { NotificationsDrawer } from './notifications-drawer';
 export { NotificationsList } from './notifications-list';
+export * from 'material-ui/svg-icons';
