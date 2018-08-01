@@ -2,7 +2,7 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import { throttle } from 'lodash';
-import { BreadcrumbsItem, BreadcrumbsControl, LoadingIndicator } from './components';
+import { BreadcrumbsControl, LoadingIndicator } from './components';
 import { getWidthToRightBorder, getWidthToLeftBorder, getRightCornerElement, getLeftCornerElement } from './helpers';
 import './_breadcrumbs.scss';
 
@@ -205,7 +205,8 @@ export class Breadcrumbs extends PureComponent {
   render() {
     const { items, isLoading } = this.props;
     const { transition } = this.state;
-
+    const BreadcrumbsItem2 = this.props.Item;
+    const itemsCount = items.length + (isLoading ? 1 : 0);
     return (
       <div className="breadcrumbs">
         <BreadcrumbsControl
@@ -217,7 +218,7 @@ export class Breadcrumbs extends PureComponent {
         <div className="breadcrumbs--track" style={{ transform: `translateX(${transition}px)` }} ref={this._getTrack}>
           {items.map((props, id) => {
             const href = props.href || null;
-            return <BreadcrumbsItem {...props} href={href} key={id} hasSeparator={id > 0} />;
+            return <BreadcrumbsItem2 {...props} href={href} key={id} hasSeparator={id < itemsCount - 1} />;
           })}
           {isLoading ? <LoadingIndicator /> : null}
         </div>
