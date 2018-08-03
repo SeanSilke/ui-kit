@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import { throttle } from 'lodash';
 import { BreadcrumbsControl, LoadingIndicator } from './components';
 import { getWidthToRightBorder, getWidthToLeftBorder, getRightCornerElement, getLeftCornerElement } from './helpers';
-import './_breadcrumbs.scss';
+import './style.scss';
 
 const onResizeThrottleDelay = 500;
 
