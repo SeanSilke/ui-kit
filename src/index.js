@@ -12,3 +12,4 @@ export { Notification } from './notification';
 export { NotificationsDrawer } from './notifications-drawer';
 export { NotificationsList } from './notifications-list';
 export * from 'material-ui/svg-icons';
+export { colors, getMuiTheme } from 'material-ui/styles';
