@@ -1,0 +1,62 @@
+.notificationDrawer-appear {
+  transform: scaleY(0);
+  transition: 300ms ease-in-out;
+}
+
+.notificationDrawer-appear.notificationDrawer-appear-active {
+  transform: scaleY(1.1);
+  transition: 300ms ease-in-out;
+}
+
+.notificationDrawer-enter {
+  transition: 300ms ease-in-out;
+  transform: scaleY(1);
+}
+
+.notificationDrawer-enter.notificationDrawer-enter-active {
+  transform: scaleY(0);
+  transition: 300ms ease-in-out;
+}
+
+.notificationDrawer-leave {
+  transition: 300ms ease-in-out;
+  transform: scaleY(1.1);
+}
+
+.notificationDrawer-leave.notificationDrawer-leave-active {
+  transform: scaleY(0);
+  transition: 300ms ease-in;
+}
+
+.notificationsDrawer {
+  position: fixed;
+  bottom: 8px;
+  right: 8px;
+  z-index: 10000;
+  transition: 0.3s ease-in-out;
+}
+
+.notificationsDrawer.open {
+  width: 350px;
+  height: 100%;
+  transition: 0.3s ease-in-out;
+  padding-top: 72px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.notificationsDrawerInner {
+  display: flex;
+  flex-wrap: wrap;
+  position: fixed;
+  bottom: 100px;
+  height: 0px;
+  overflow-y: auto;
+  width: 345px;
+  transition: 0.7s;
+}
+
+.open .notificationsDrawerInner {
+  transition: 0.7s;
+  height: calc(100vh - 105px);
+}
