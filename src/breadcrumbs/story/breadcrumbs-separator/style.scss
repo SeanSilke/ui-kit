@@ -1,0 +1,10 @@
+.breadcrumbs {
+  &--separator {
+    display: inline-flex;
+    align-items: center;
+  }
+
+  &--separatorIcon {
+    margin-top: -2px;
+  }
+}

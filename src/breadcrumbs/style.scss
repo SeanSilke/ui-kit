@@ -20,13 +20,4 @@ $timingFunction: cubic-bezier(0.23, 1, 0.32, 1);
   &--text {
     color: $textColor;
   }
-
-  &--link {
-    color: $alternateTextColor;
-    text-decoration: none;
-
-    &:hover {
-      text-decoration: underline;
-    }
-  }
 }

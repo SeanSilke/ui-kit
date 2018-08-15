@@ -1,0 +1,26 @@
+$primary1Color: #009688;
+$canvasColor: #ffffff;
+$alternateTextColor: #ffffff;
+$textColor: #b8b8b8;
+$timingFunction: cubic-bezier(0.23, 1, 0.32, 1);
+
+.breadcrumbs {
+  &--item {
+    display: inline-flex;
+    align-items: center;
+  }
+
+  &--text {
+    color: $textColor;
+  }
+
+  &--link {
+    color: $alternateTextColor;
+    pointer-events: none;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

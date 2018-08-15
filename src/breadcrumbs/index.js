@@ -230,5 +230,7 @@ export class Breadcrumbs extends PureComponent {
 
 Breadcrumbs.propTypes = {
   isLoading: PropTypes.bool,
-  items: PropTypes.arrayOf(PropTypes.object)
+  items: PropTypes.arrayOf(PropTypes.object),
+  // Item is React component that will be used to render breadcrumbs items
+  Item: PropTypes.func.isRequired
 };
