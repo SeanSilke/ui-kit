@@ -153,7 +153,7 @@
       "exceptRange": true
     }],
     "jsx-quotes": [2, "prefer-double"],
-    "react/prop-types": 0,
+    "react/prop-types": 1,
     "react/self-closing-comp": 1,
     "react/no-typos": 2,
     "react/jsx-no-bind": [2, {"ignoreRefs": true}],

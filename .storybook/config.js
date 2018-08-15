@@ -3,8 +3,9 @@ import { configure, addDecorator } from '@storybook/react';
 import { setOptions } from '@storybook/addon-options';
 
 // plugin to add onTouchTap to react components
-// import injectTapEventPlugin from 'react-tap-event-plugin';
-// injectTapEventPlugin();
+// peerDependencie for material-ui
+import injectTapEventPlugin from 'react-tap-event-plugin';
+injectTapEventPlugin();
 
 setOptions({
   /**
@@ -29,12 +30,10 @@ setOptions({
   downPanelInRight: true
 });
 
-// const req = require.context('../src', true, /.stories.js$/);
+const req = require.context('../src', true, /.stories.js$/);
 
 function loadStories() {
-  // req.keys().forEach(filename => req(filename));
-  require('../src/highlight-text/index.stories');
-  require('../src/breadcrumbs/story/index.stories');
+  req.keys().forEach(filename => req(filename));
 }
 
 configure(loadStories, module);

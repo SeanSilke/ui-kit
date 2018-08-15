@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react';
 import { SelectMultiple } from './index';
 import { action } from '@storybook/addon-actions';
 import { withKnobs, boolean, number } from '@storybook/addon-knobs';
-import { MUThemeDecorator } from '../../../.storybook/mu-theme-decorator';
+import { MUThemeDecorator } from '../../.storybook/mu-theme-decorator';
 
 const stories = storiesOf('SelectMultiple', module);
 stories.addDecorator(withKnobs);

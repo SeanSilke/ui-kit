@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import Select from 'react-select';
 import Value from 'react-select/lib/Value';
 import classNames from 'classnames';
@@ -63,3 +64,20 @@ export class SelectMultiple extends Component {
     );
   }
 }
+
+const valuePropType = PropTypes.shape({
+  className: PropTypes.string,
+  value: PropTypes.number.isRequired,
+  label: PropTypes.string.isRequired
+});
+
+SelectMultiple.propTypes = {
+  style: PropTypes.object,
+  highlighted: PropTypes.number,
+  name: PropTypes.string,
+  onValueClick: PropTypes.func,
+  multi: PropTypes.bool,
+  value: PropTypes.arrayOf(valuePropType),
+  placeholder: PropTypes.string,
+  ...Select.propTypes
+};

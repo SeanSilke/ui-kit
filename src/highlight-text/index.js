@@ -10,7 +10,8 @@ export const HighlightTextInner = ({
 }) => <span {...rest} style={{ color: accent3Color }} />;
 
 HighlightTextInner.propTypes = {
-  children: PropTypes.string.isRequired
+  children: PropTypes.string.isRequired,
+  muiTheme: PropTypes.object.isRequired
 };
 
 export const HighlightText = muiThemeable()(HighlightTextInner);

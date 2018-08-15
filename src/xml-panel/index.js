@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { formatXml } from './helpers';
 import SyntaxHighlighter, { registerLanguage } from 'react-syntax-highlighter/dist/light';
 import foundation from 'react-syntax-highlighter/styles/hljs/foundation';
@@ -12,4 +13,8 @@ export const XmlPanel = ({ xml }) => {
       {formatXml(xml)}
     </SyntaxHighlighter>
   );
+};
+
+XmlPanel.propTypes = {
+  xml: PropTypes.string
 };

@@ -1,5 +1,6 @@
 /* eslint react/no-deprecated: 0 */
 import React, { Component } from 'react';
+import { PropTypes } from 'prop-types';
 import TextField from 'material-ui/TextField';
 import { debounce } from 'lodash';
 
@@ -14,7 +15,7 @@ export class SearchField extends Component {
   }
 
   componentWillReceiveProps({ value }) {
-    if (value !== this.state.search) {
+    if (value !== this.state.value) {
       this.setState({ value });
     }
   }
@@ -48,3 +49,9 @@ export class SearchField extends Component {
     return <TextField {...TextFieldProps} />;
   }
 }
+
+SearchField.propTypes = {
+  onChange: PropTypes.func,
+  value: PropTypes.string,
+  ...TextField.propTypes
+};

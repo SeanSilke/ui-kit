@@ -1,3 +1,5 @@
+// TODO: Moved it to main project
+// This component has the unmet dependence on nav-link and react-router.
 import React from 'react';
 import PropTypes from 'prop-types';
 import { ListItem } from 'material-ui/List';

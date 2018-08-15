@@ -2,7 +2,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { SearchField } from './index';
-import { MUThemeDecorator } from '../../../.storybook/mu-theme-decorator';
+import { MUThemeDecorator } from '../../.storybook/mu-theme-decorator';
 
 const vraperProps = {
   style: {
