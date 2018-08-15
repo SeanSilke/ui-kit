@@ -1,6 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import { MUThemeDecorator } from '../../../.storybook/mu-theme-decorator';
+import { MUThemeDecorator } from '../../.storybook/mu-theme-decorator';
 import { HighlightText } from './index';
 
 storiesOf('HighlightText', module)
