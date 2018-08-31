@@ -21,7 +21,8 @@
     "start": "npm run prebuild && babel --watch ./src --out-dir ./build --ignore *.stories.js --copy-files",
     "build": "rimraf build && babel ./src --out-dir ./build --ignore *.stories.js --copy-files",
     "storybook": "start-storybook -p 6006 -c .storybook",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "test:generate-output": "jest --json --outputFile=jest-test-results.json"
   },
   "author": {
     "name": "Sergey Orlov",
@@ -31,6 +32,7 @@
   "devDependencies": {
     "@storybook/addon-actions": "^3.4.10",
     "@storybook/addon-events": "^3.4.10",
+    "@storybook/addon-jest": "^3.4.10",
     "@storybook/addon-knobs": "^3.4.10",
     "@storybook/addon-options": "^3.4.10",
     "@storybook/react": "^3.2.8",
@@ -45,6 +47,7 @@
     "eslint-plugin-import": "^2.13.0",
     "eslint-plugin-react": "^7.10.0",
     "eventemitter3": "^3.1.0",
+    "jest": "^23.5.0",
     "node-sass": "^4.9.3",
     "react": "^15.4.2",
     "react-dom": "^15.3.2",
