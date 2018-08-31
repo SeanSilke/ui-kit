@@ -20,7 +20,9 @@ const MenuDrawer = ({ open, handleToggle, children }) => (
 );
 
 MenuDrawer.propTypes = {
-  handleToggle: PropTypes.func.isRequired
+  handleToggle: PropTypes.func.isRequired,
+  open: PropTypes.bool,
+  children: PropTypes.node,
 };
 
 export { MenuDrawer };
