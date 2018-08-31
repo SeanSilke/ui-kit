@@ -35,6 +35,7 @@
     "@storybook/addon-jest": "^3.4.10",
     "@storybook/addon-knobs": "^3.4.10",
     "@storybook/addon-options": "^3.4.10",
+    "@storybook/addon-viewport": "^3.4.10",
     "@storybook/react": "^3.2.8",
     "babel-cli": "^6.24.1",
     "babel-core": "^6.2.1",
