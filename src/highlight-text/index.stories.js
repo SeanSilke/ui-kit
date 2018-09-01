@@ -1,10 +1,11 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import { MUThemeDecorator } from '../../.storybook/mu-theme-decorator';
+import { muiTheme } from 'storybook-addon-material-ui';
+import { themesList } from '../../.storybook/theme';
 import { HighlightText } from './index';
 
 storiesOf('HighlightText', module)
-  .addDecorator(MUThemeDecorator)
+  .addDecorator(muiTheme(themesList))
   .add('highlighted text', () => (
     <div>
       <div>Simple text</div>

@@ -3,7 +3,8 @@ import { storiesOf } from '@storybook/react';
 import { SelectMultiple } from './index';
 import { action } from '@storybook/addon-actions';
 import { withKnobs, boolean, number } from '@storybook/addon-knobs';
-import { MUThemeDecorator } from '../../.storybook/mu-theme-decorator';
+import { muiTheme } from 'storybook-addon-material-ui';
+import { themesList } from '../../.storybook/theme';
 
 const stories = storiesOf('SelectMultiple', module);
 stories.addDecorator(withKnobs);
@@ -53,7 +54,7 @@ class SelectContainer extends Component {
 }
 
 stories
-  .addDecorator(MUThemeDecorator)
+  .addDecorator(muiTheme(themesList))
   .add('Single', () => <SelectContainer />)
   .add('Multiple', () => <SelectContainer onValueClick={onValueClick} multi />)
   .add('Multiple with highlighted element', () => {
