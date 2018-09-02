@@ -1,5 +1,6 @@
 /* eslint react/no-deprecated: 0 */
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import RaisedButton from 'material-ui/RaisedButton';
 import { Col } from 'react-grid-system';
 import Paper from 'material-ui/Paper';
@@ -12,17 +13,7 @@ const style = {
   padding: 24
 };
 
-export class Login extends Component {
-  componentWillReceiveProps(nextProps) {
-    if (nextProps.isAuthenticated) {
-      nextProps.history.push('/');
-    }
-
-    if (nextProps.errorMessage) {
-      this.props.onError(nextProps.errorMessage);
-    }
-  }
-
+export class LoginInner extends Component {
   login = null;
   password = null;
 
@@ -51,3 +42,34 @@ export class Login extends Component {
     );
   }
 }
+
+LoginInner.propTypes = {
+  onSubmit: PropTypes.func.isRequired
+};
+
+// TODO: Move this component to main project
+// It depends on the react-router implementation
+// viz. nextProps.history
+export class Login extends Component {
+  componentWillReceiveProps(nextProps) {
+    if (nextProps.isAuthenticated) {
+      nextProps.history.push('/');
+    }
+
+    if (nextProps.errorMessage) {
+      this.props.onError(nextProps.errorMessage);
+    }
+  }
+
+  render() {
+    return <LoginInner onSubmit={this.props.onSubmit} />;
+  }
+}
+
+Login.propTypes = {
+  isAuthenticated: PropTypes.bool,
+  errorMessage: PropTypes.string,
+  history: PropTypes.object.isRequired,
+  onError: PropTypes.func.isRequired,
+  onSubmit: PropTypes.func.isRequired
+};
