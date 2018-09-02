@@ -1,6 +1,6 @@
 import { indigoA200, teal500, blueGrey500, grey100, deepOrange600 } from 'material-ui/styles/colors';
 
-const StandardTheme = {
+export const StandardTheme = {
   themeName: 'StandardTheme',
   fontFamily: 'PT Sans Narrow, sans-serif',
   palette: {
