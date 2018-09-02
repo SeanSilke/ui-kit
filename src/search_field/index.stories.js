@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
 import { SearchField } from './index';
 import { muiTheme } from 'storybook-addon-material-ui';
-import { themesList } from '../../.storybook/theme';
+import { themesList } from '../ui-themes';
 
 const vraperProps = {
   style: {
@@ -12,8 +12,8 @@ const vraperProps = {
 };
 
 storiesOf('SearchField', module)
-  .addDecorator(muiTheme(themesList))
   .addDecorator(story => <div {...vraperProps}>{story()} </div>)
+  .addDecorator(muiTheme(themesList))
   .add('Uncontrolled Component', () => (
     <SearchField floatingLabelText="Найти профиль" name="search" onChange={action('onChange')} />
   ))

@@ -4,7 +4,7 @@ import { SelectMultiple } from './index';
 import { action } from '@storybook/addon-actions';
 import { withKnobs, boolean, number } from '@storybook/addon-knobs';
 import { muiTheme } from 'storybook-addon-material-ui';
-import { themesList } from '../../.storybook/theme';
+import { themesList } from '../ui-themes';
 
 const stories = storiesOf('SelectMultiple', module);
 stories.addDecorator(withKnobs);

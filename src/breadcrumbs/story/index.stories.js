@@ -10,11 +10,7 @@ import { longitems, shortItems } from './data';
 import { Breadcrumbs } from '../index';
 import { BreadcrumbsItem } from './breadcrumbs-item';
 
-import { themesList } from '../../../.storybook/theme';
-
-// import '../../../../default.scss';
-// import '../../../../assets/fonts/_fonts.scss';
-// import 'normalize.css';
+import { themesList } from '../../ui-themes';
 
 const stories = storiesOf('Breadcrumbs', module);
 
