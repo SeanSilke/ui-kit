@@ -2,11 +2,6 @@ import React from 'react';
 import { configure, addDecorator } from '@storybook/react';
 import { setOptions } from '@storybook/addon-options';
 
-// plugin to add onTouchTap to react components
-// peerDependencie for material-ui
-import injectTapEventPlugin from 'react-tap-event-plugin';
-injectTapEventPlugin();
-
 setOptions({
   /**
    * name to display in the top left corner
