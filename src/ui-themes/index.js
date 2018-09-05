@@ -1,7 +1,7 @@
 import { indigoA200, teal500, blueGrey500, grey100, deepOrange600 } from 'material-ui/styles/colors';
 
 export const StandardTheme = {
-  themeName: 'StandardTheme',
+  themeName: 'MVTheme',
   fontFamily: 'PT Sans Narrow, sans-serif',
   palette: {
     primary1Color: teal500,
