@@ -1,0 +1,17 @@
+.animation-panel {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+}
+
+//This style is  used to create button layout
+.action-button {
+  margin: 12px;
+}
+
+.button-layout {
+  display: 'flex';
+  justify-content: space-evenly;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}

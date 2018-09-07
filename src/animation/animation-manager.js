@@ -41,5 +41,6 @@ AnimationManager.propTypes = {
   transitionStyles: PropTypes.object.isRequired,
   //direction is one of the keys of transitionStyles object
   direction: PropTypes.string.isRequired,
-  component: PropTypes.oneOfType([PropTypes.element, PropTypes.func]).isRequired
+  component: PropTypes.oneOfType([PropTypes.element, PropTypes.func]),
+  panelProps: PropTypes.object
 };
