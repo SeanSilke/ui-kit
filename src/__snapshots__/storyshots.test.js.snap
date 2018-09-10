@@ -1,0 +1,5529 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots __Events Logger 1`] = `
+<div
+  style={
+    Object {
+      "color": "rgb(51, 51, 51)",
+      "fontFamily": "Areal, sans-serif",
+      "padding": 20,
+    }
+  }
+>
+  <h1>
+    Logger
+  </h1>
+  <dl />
+</div>
+`;
+
+exports[`Storyshots __Info withInfo 1`] = `
+<div>
+  <div
+    style={
+      Object {
+        "position": "relative",
+        "zIndex": 0,
+      }
+    }
+  >
+    <h1>
+      This is a simple header component.
+    </h1>
+  </div>
+  <button
+    onClick={[Function]}
+    style={
+      Object {
+        "background": "#28c",
+        "border": "none",
+        "borderRadius": "0 0 0 5px",
+        "color": "#fff",
+        "cursor": "pointer",
+        "display": "block",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "padding": "5px 15px",
+        "position": "fixed",
+        "right": 0,
+        "top": 0,
+      }
+    }
+    type="button"
+  >
+    Show Info
+  </button>
+  <div
+    style={
+      Object {
+        "background": "white",
+        "bottom": 0,
+        "display": "none",
+        "left": 0,
+        "overflow": "auto",
+        "padding": "0 40px",
+        "position": "fixed",
+        "right": 0,
+        "top": 0,
+        "zIndex": 99999,
+      }
+    }
+  >
+    <button
+      onClick={[Function]}
+      style={
+        Object {
+          "background": "#28c",
+          "border": "none",
+          "borderRadius": "0 0 0 5px",
+          "color": "#fff",
+          "cursor": "pointer",
+          "display": "block",
+          "fontFamily": "sans-serif",
+          "fontSize": "12px",
+          "padding": "5px 15px",
+          "position": "fixed",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      type="button"
+    >
+      ×
+    </button>
+    <div>
+      <div
+        style={
+          Object {
+            "WebkitFontSmoothing": "antialiased",
+            "backgroundColor": "#fff",
+            "border": "1px solid #eee",
+            "borderRadius": "2px",
+            "boxShadow": "0px 2px 3px rgba(0, 0, 0, 0.05)",
+            "color": "#444",
+            "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
+            "fontSize": "15px",
+            "fontWeight": 300,
+            "lineHeight": 1.45,
+            "marginBottom": "20px",
+            "marginTop": "20px",
+            "padding": "20px 40px 40px",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "borderBottom": "1px solid #eee",
+              "marginBottom": 10,
+              "paddingTop": 10,
+            }
+          }
+        >
+          <h1
+            style={
+              Object {
+                "fontSize": "35px",
+                "margin": 0,
+                "padding": 0,
+              }
+            }
+          >
+            __Info
+          </h1>
+          <h2
+            style={
+              Object {
+                "fontSize": "22px",
+                "fontWeight": 400,
+                "margin": "0 0 10px 0",
+                "padding": 0,
+              }
+            }
+          >
+            withInfo
+          </h2>
+        </div>
+        <div
+          style={
+            Object {
+              "marginBottom": 0,
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "WebkitFontSmoothing": "antialiased",
+                "color": "#444",
+                "fontFamily": "-apple-system, \\".SFNSText-Regular\\", \\"San Francisco\\", BlinkMacSystemFont, \\"Segoe UI\\", \\"Roboto\\", \\"Oxygen\\", \\"Ubuntu\\", \\"Cantarell\\", \\"Fira Sans\\", \\"Droid Sans\\", \\"Helvetica Neue\\", \\"Lucida Grande\\", \\"Arial\\", sans-serif",
+                "fontSize": "15px",
+              }
+            }
+          >
+            description or documentation about component, supports markdown
+          </div>
+          <pre
+            className="language-js"
+            style={
+              Object {
+                "backgroundColor": "#fafafa",
+                "fontFamily": "Menlo, Monaco, \\"Courier New\\", monospace",
+                "lineHeight": 1.5,
+                "overflowX": "scroll",
+                "padding": ".5rem",
+              }
+            }
+          >
+            <code
+              className="language-js"
+              style={
+                Object {
+                  "backgroundColor": "#fafafa",
+                  "fontFamily": "Menlo, Monaco, \\"Courier New\\", monospace",
+                }
+              }
+            >
+              &lt;Button&gt;Click Here&lt;/Button&gt;
+            </code>
+          </pre>
+        </div>
+        <div>
+          <h1
+            style={
+              Object {
+                "borderBottom": "1px solid #EEE",
+                "fontSize": "25px",
+                "margin": "20px 0 0 0",
+                "padding": "0 0 5px 0",
+              }
+            }
+          >
+            Story Source
+          </h1>
+          <pre
+            className="css-4akams"
+          >
+            <div>
+              <div>
+                <div
+                  style={
+                    Object {
+                      "paddingLeft": 18,
+                      "paddingRight": 3,
+                    }
+                  }
+                >
+                  <span
+                    style={
+                      Object {
+                        "color": "#777",
+                      }
+                    }
+                  >
+                    &lt;
+                    h1
+                  </span>
+                  <span />
+                  <span
+                    style={
+                      Object {
+                        "color": "#777",
+                      }
+                    }
+                  >
+                    &gt;
+                  </span>
+                </div>
+                <div
+                  style={
+                    Object {
+                      "paddingLeft": 33,
+                      "paddingRight": 3,
+                    }
+                  }
+                >
+                  <span
+                    style={
+                      Object {
+                        "color": "#777",
+                      }
+                    }
+                  >
+                    This is a simple header component.
+                  </span>
+                </div>
+                <div
+                  style={
+                    Object {
+                      "paddingLeft": 18,
+                      "paddingRight": 3,
+                    }
+                  }
+                >
+                  <span
+                    style={
+                      Object {
+                        "color": "#777",
+                      }
+                    }
+                  >
+                    &lt;/
+                    h1
+                    &gt;
+                  </span>
+                </div>
+              </div>
+            </div>
+            <button
+              className="css-py33tc"
+              onClick={[Function]}
+            >
+              <div
+                className="css-kv47nt"
+              >
+                <div
+                  style={
+                    Object {
+                      "marginBottom": 6,
+                    }
+                  }
+                >
+                  Copied!
+                </div>
+                <div>
+                  Copy
+                </div>
+              </div>
+            </button>
+          </pre>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots __Jest withTests 1`] = `
+<div>
+  Jest results fri sum function in storybook
+</div>
+`;
+
+exports[`Storyshots __Material-UI Components 1`] = `
+<div
+  style={
+    Object {
+      "background": "#ffffff",
+      "bottom": 0,
+      "left": 0,
+      "position": "absolute",
+      "right": 0,
+      "top": 0,
+    }
+  }
+>
+  <div
+    className="SplitPane  vertical "
+    style={
+      Object {
+        "MozUserSelect": "text",
+        "WebkitUserSelect": "text",
+        "display": "flex",
+        "flex": 1,
+        "flexDirection": "row",
+        "height": "100%",
+        "left": 0,
+        "msUserSelect": "text",
+        "outline": "none",
+        "overflow": "hidden",
+        "position": "absolute",
+        "right": 0,
+        "userSelect": "text",
+      }
+    }
+  >
+    <div
+      className="Pane vertical Pane1  "
+      style={
+        Object {
+          "flex": 1,
+          "outline": "none",
+          "overflowX": "auto",
+          "overflowY": "auto",
+          "position": "relative",
+        }
+      }
+    >
+      <div>
+        <div
+          style={
+            Object {
+              "display": "flex",
+              "justifyContent": "center",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "maxWidth": 1000,
+                "minWidth": 600,
+                "width": "60%",
+              }
+            }
+          >
+            <div>
+              <div
+                style={
+                  Object {
+                    "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+                    "backgroundColor": "#ffffff",
+                    "borderRadius": 2,
+                    "boxShadow": "0 1px 6px rgba(0, 0, 0, 0.12),
+         0 1px 4px rgba(0, 0, 0, 0.12)",
+                    "boxSizing": "border-box",
+                    "color": "rgba(0, 0, 0, 0.87)",
+                    "fontFamily": "PT Sans Narrow, sans-serif",
+                    "marginBottom": 32,
+                    "muiPrepared": true,
+                    "overflow": "hidden",
+                    "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                  }
+                }
+              >
+                <div
+                  style={
+                    Object {
+                      "muiPrepared": true,
+                    }
+                  }
+                >
+                  <div
+                    style={
+                      Object {
+                        "boxSizing": "border-box",
+                        "content": "' '",
+                        "display": "table",
+                        "muiPrepared": true,
+                      }
+                    }
+                  />
+                  <div>
+                    <div
+                      style={
+                        Object {
+                          "muiPrepared": true,
+                        }
+                      }
+                      value="light"
+                    >
+                      <div
+                        style={
+                          Object {
+                            "backgroundColor": "#009688",
+                            "display": "flex",
+                            "muiPrepared": true,
+                            "whiteSpace": "nowrap",
+                            "width": "100%",
+                          }
+                        }
+                      >
+                        <material-ui/internal/EnhancedButton
+                          focusRippleColor="#ffffff"
+                          focusRippleOpacity={0.3}
+                          onTouchTap={[Function]}
+                          style={
+                            Object {
+                              "color": "#ffffff",
+                              "fontSize": 14,
+                              "fontWeight": 500,
+                              "padding": 0,
+                              "textTransform": "uppercase",
+                              "width": "50%",
+                            }
+                          }
+                          touchRippleColor="#ffffff"
+                          touchRippleOpacity={0.3}
+                        >
+                          <div
+                            style={
+                              Object {
+                                "alignItems": "center",
+                                "display": "flex",
+                                "flexDirection": "column",
+                                "height": 48,
+                                "justifyContent": "center",
+                              }
+                            }
+                          >
+                            The Left Tab
+                          </div>
+                        </material-ui/internal/EnhancedButton>
+                        <material-ui/internal/EnhancedButton
+                          focusRippleColor="#ffffff"
+                          focusRippleOpacity={0.3}
+                          onTouchTap={[Function]}
+                          style={
+                            Object {
+                              "color": "rgba(255, 255, 255, 0.7)",
+                              "fontSize": 14,
+                              "fontWeight": 500,
+                              "padding": 0,
+                              "textTransform": "uppercase",
+                              "width": "50%",
+                            }
+                          }
+                          touchRippleColor="#ffffff"
+                          touchRippleOpacity={0.3}
+                        >
+                          <div
+                            style={
+                              Object {
+                                "alignItems": "center",
+                                "display": "flex",
+                                "flexDirection": "column",
+                                "height": 48,
+                                "justifyContent": "center",
+                              }
+                            }
+                          >
+                            The Right Tab
+                          </div>
+                        </material-ui/internal/EnhancedButton>
+                      </div>
+                      <div
+                        style={
+                          Object {
+                            "width": "100%",
+                          }
+                        }
+                      >
+                        <div
+                          style={
+                            Object {
+                              "backgroundColor": "#536dfe",
+                              "bottom": 0,
+                              "display": "block",
+                              "height": 2,
+                              "left": "0%",
+                              "marginTop": -2,
+                              "muiPrepared": true,
+                              "position": "relative",
+                              "transition": "left 1s cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                              "width": "50%",
+                            }
+                          }
+                        />
+                      </div>
+                      <div
+                        style={
+                          Object {
+                            "muiPrepared": true,
+                          }
+                        }
+                      />
+                    </div>
+                    <div
+                      style={
+                        Object {
+                          "muiPrepared": true,
+                        }
+                      }
+                    >
+                      <div
+                        style={
+                          Object {
+                            "boxSizing": "border-box",
+                            "content": "' '",
+                            "display": "table",
+                            "muiPrepared": true,
+                          }
+                        }
+                      />
+                      <div
+                        style={
+                          Object {
+                            "boxSizing": "border-box",
+                            "float": "left",
+                            "marginTop": "16px",
+                            "padding": "0 50px",
+                            "width": "33%",
+                          }
+                        }
+                      >
+                        <div
+                          style={
+                            Object {
+                              "marginBottom": "16px",
+                              "minHeight": "24px",
+                              "textAlign": "center",
+                            }
+                          }
+                        >
+                          <div
+                            style={
+                              Object {
+                                "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+                                "backgroundColor": "#ffffff",
+                                "borderRadius": 2,
+                                "boxShadow": "0 1px 6px rgba(0, 0, 0, 0.12),
+         0 1px 4px rgba(0, 0, 0, 0.12)",
+                                "boxSizing": "border-box",
+                                "color": "rgba(0, 0, 0, 0.87)",
+                                "display": "inline-block",
+                                "fontFamily": "PT Sans Narrow, sans-serif",
+                                "minWidth": 88,
+                                "muiPrepared": true,
+                                "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                              }
+                            }
+                          >
+                            <material-ui/internal/EnhancedButton
+                              disabled={false}
+                              focusRippleColor="#ffffff"
+                              focusRippleOpacity={0.16}
+                              onKeyboardFocus={[Function]}
+                              onMouseDown={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              onTouchEnd={[Function]}
+                              onTouchStart={[Function]}
+                              style={
+                                Object {
+                                  "backgroundColor": "#536dfe",
+                                  "borderRadius": 2,
+                                  "height": 36,
+                                  "lineHeight": "36px",
+                                  "padding": 0,
+                                  "textAlign": "center",
+                                  "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                                  "width": "100%",
+                                }
+                              }
+                              touchRippleColor="#ffffff"
+                              touchRippleOpacity={0.16}
+                            >
+                              <div
+                                style={
+                                  Object {
+                                    "backgroundColor": false,
+                                    "borderRadius": 2,
+                                    "height": 36,
+                                    "muiPrepared": true,
+                                    "top": 0,
+                                    "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                                  }
+                                }
+                              >
+                                <span
+                                  style={
+                                    Object {
+                                      "color": "#ffffff",
+                                      "fontSize": 14,
+                                      "fontWeight": 500,
+                                      "letterSpacing": 0,
+                                      "margin": 0,
+                                      "muiPrepared": true,
+                                      "opacity": 1,
+                                      "paddingLeft": 16,
+                                      "paddingRight": 16,
+                                      "position": "relative",
+                                      "textTransform": "uppercase",
+                                      "userSelect": "none",
+                                    }
+                                  }
+                                >
+                                  Secondary
+                                </span>
+                              </div>
+                            </material-ui/internal/EnhancedButton>
+                          </div>
+                        </div>
+                        <div
+                          style={
+                            Object {
+                              "marginBottom": "16px",
+                              "minHeight": "24px",
+                              "textAlign": "center",
+                            }
+                          }
+                        >
+                          <div
+                            style={
+                              Object {
+                                "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+                                "backgroundColor": "#ffffff",
+                                "borderRadius": 2,
+                                "boxShadow": "0 1px 6px rgba(0, 0, 0, 0.12),
+         0 1px 4px rgba(0, 0, 0, 0.12)",
+                                "boxSizing": "border-box",
+                                "color": "rgba(0, 0, 0, 0.87)",
+                                "display": "inline-block",
+                                "fontFamily": "PT Sans Narrow, sans-serif",
+                                "minWidth": 88,
+                                "muiPrepared": true,
+                                "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                              }
+                            }
+                          >
+                            <material-ui/internal/EnhancedButton
+                              disabled={false}
+                              focusRippleColor="#ffffff"
+                              focusRippleOpacity={0.16}
+                              onKeyboardFocus={[Function]}
+                              onMouseDown={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              onTouchEnd={[Function]}
+                              onTouchStart={[Function]}
+                              style={
+                                Object {
+                                  "backgroundColor": "#009688",
+                                  "borderRadius": 2,
+                                  "height": 36,
+                                  "lineHeight": "36px",
+                                  "padding": 0,
+                                  "textAlign": "center",
+                                  "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                                  "width": "100%",
+                                }
+                              }
+                              touchRippleColor="#ffffff"
+                              touchRippleOpacity={0.16}
+                            >
+                              <div
+                                style={
+                                  Object {
+                                    "backgroundColor": false,
+                                    "borderRadius": 2,
+                                    "height": 36,
+                                    "muiPrepared": true,
+                                    "top": 0,
+                                    "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                                  }
+                                }
+                              >
+                                <span
+                                  style={
+                                    Object {
+                                      "color": "#ffffff",
+                                      "fontSize": 14,
+                                      "fontWeight": 500,
+                                      "letterSpacing": 0,
+                                      "margin": 0,
+                                      "muiPrepared": true,
+                                      "opacity": 1,
+                                      "paddingLeft": 16,
+                                      "paddingRight": 16,
+                                      "position": "relative",
+                                      "textTransform": "uppercase",
+                                      "userSelect": "none",
+                                    }
+                                  }
+                                >
+                                  Primary
+                                </span>
+                              </div>
+                            </material-ui/internal/EnhancedButton>
+                          </div>
+                        </div>
+                        <div
+                          style={
+                            Object {
+                              "marginBottom": "16px",
+                              "minHeight": "24px",
+                              "textAlign": "center",
+                            }
+                          }
+                        >
+                          <div
+                            style={
+                              Object {
+                                "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+                                "backgroundColor": "#ffffff",
+                                "borderRadius": 2,
+                                "boxShadow": "0 1px 6px rgba(0, 0, 0, 0.12),
+         0 1px 4px rgba(0, 0, 0, 0.12)",
+                                "boxSizing": "border-box",
+                                "color": "rgba(0, 0, 0, 0.87)",
+                                "display": "inline-block",
+                                "fontFamily": "PT Sans Narrow, sans-serif",
+                                "minWidth": 88,
+                                "muiPrepared": true,
+                                "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                              }
+                            }
+                          >
+                            <material-ui/internal/EnhancedButton
+                              disabled={false}
+                              focusRippleColor="rgba(0, 0, 0, 0.87)"
+                              focusRippleOpacity={0.1}
+                              onKeyboardFocus={[Function]}
+                              onMouseDown={[Function]}
+                              onMouseEnter={[Function]}
+                              onMouseLeave={[Function]}
+                              onMouseUp={[Function]}
+                              onTouchEnd={[Function]}
+                              onTouchStart={[Function]}
+                              style={
+                                Object {
+                                  "backgroundColor": "#ffffff",
+                                  "borderRadius": 2,
+                                  "height": 36,
+                                  "lineHeight": "36px",
+                                  "padding": 0,
+                                  "textAlign": "center",
+                                  "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                                  "width": "100%",
+                                }
+                              }
+                              touchRippleColor="rgba(0, 0, 0, 0.87)"
+                              touchRippleOpacity={0.1}
+                            >
+                              <div
+                                style={
+                                  Object {
+                                    "backgroundColor": false,
+                                    "borderRadius": 2,
+                                    "height": 36,
+                                    "muiPrepared": true,
+                                    "top": 0,
+                                    "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                                  }
+                                }
+                              >
+                                <span
+                                  style={
+                                    Object {
+                                      "color": "rgba(0, 0, 0, 0.87)",
+                                      "fontSize": 14,
+                                      "fontWeight": 500,
+                                      "letterSpacing": 0,
+                                      "margin": 0,
+                                      "muiPrepared": true,
+                                      "opacity": 1,
+                                      "paddingLeft": 16,
+                                      "paddingRight": 16,
+                                      "position": "relative",
+                                      "textTransform": "uppercase",
+                                      "userSelect": "none",
+                                    }
+                                  }
+                                >
+                                  Default
+                                </span>
+                              </div>
+                            </material-ui/internal/EnhancedButton>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        style={
+                          Object {
+                            "boxSizing": "border-box",
+                            "float": "left",
+                            "marginTop": "16px",
+                            "padding": "0 50px",
+                            "width": "33%",
+                          }
+                        }
+                      >
+                        <div
+                          style={
+                            Object {
+                              "marginBottom": "16px",
+                              "minHeight": "24px",
+                              "textAlign": "left",
+                            }
+                          }
+                        >
+                          <material-ui/internal/EnhancedSwitch
+                            disabled={false}
+                            iconStyle={
+                              Object {
+                                "height": 24,
+                                "width": 24,
+                              }
+                            }
+                            inputType="checkbox"
+                            label="checkbox"
+                            labelPosition="right"
+                            labelStyle={
+                              Object {
+                                "color": "rgba(0, 0, 0, 0.87)",
+                              }
+                            }
+                            name="checkboxName1"
+                            onParentShouldUpdate={[Function]}
+                            onSwitch={[Function]}
+                            rippleColor="rgba(0, 0, 0, 0.87)"
+                            switchElement={
+                              <div>
+                                <ToggleCheckBoxOutlineBlank
+                                  style={
+                                    Object {
+                                      "fill": "rgba(0, 0, 0, 0.87)",
+                                      "opacity": 1,
+                                      "position": "absolute",
+                                      "transition": "opacity 1000ms cubic-bezier(0.23, 1, 0.32, 1) 200ms",
+                                    }
+                                  }
+                                />
+                                <ToggleCheckBox
+                                  style={
+                                    Object {
+                                      "fill": "#009688",
+                                      "opacity": 0,
+                                      "position": "absolute",
+                                      "transform": "scale(0)",
+                                      "transition": "opacity 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms, transform 0ms cubic-bezier(0.23, 1, 0.32, 1) 450ms",
+                                      "transitionOrigin": "50% 50%",
+                                    }
+                                  }
+                                />
+                              </div>
+                            }
+                            switched={false}
+                            value="checkboxValue1"
+                          />
+                          <material-ui/internal/EnhancedSwitch
+                            disabled={true}
+                            iconStyle={
+                              Object {
+                                "height": 24,
+                                "width": 24,
+                              }
+                            }
+                            inputType="checkbox"
+                            label="disabled checkbox"
+                            labelPosition="right"
+                            labelStyle={
+                              Object {
+                                "color": "rgba(0, 0, 0, 0.3)",
+                              }
+                            }
+                            name="checkboxName2"
+                            onParentShouldUpdate={[Function]}
+                            onSwitch={[Function]}
+                            rippleColor="rgba(0, 0, 0, 0.3)"
+                            switchElement={
+                              <div>
+                                <ToggleCheckBoxOutlineBlank
+                                  style={
+                                    Object {
+                                      "fill": "rgba(0, 0, 0, 0.3)",
+                                      "opacity": 1,
+                                      "position": "absolute",
+                                      "transition": "opacity 1000ms cubic-bezier(0.23, 1, 0.32, 1) 200ms",
+                                    }
+                                  }
+                                />
+                                <ToggleCheckBox
+                                  style={
+                                    Object {
+                                      "fill": "rgba(0, 0, 0, 0.3)",
+                                      "opacity": 0,
+                                      "position": "absolute",
+                                      "transform": "scale(0)",
+                                      "transition": "opacity 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms, transform 0ms cubic-bezier(0.23, 1, 0.32, 1) 450ms",
+                                      "transitionOrigin": "50% 50%",
+                                    }
+                                  }
+                                />
+                              </div>
+                            }
+                            switched={false}
+                            value="checkboxValue2"
+                          />
+                        </div>
+                        <div
+                          style={
+                            Object {
+                              "marginBottom": "16px",
+                              "minHeight": "24px",
+                              "textAlign": "left",
+                            }
+                          }
+                        >
+                          <div
+                            style={
+                              Object {
+                                "muiPrepared": true,
+                              }
+                            }
+                          >
+                            <material-ui/internal/EnhancedSwitch
+                              checked={true}
+                              disabled={false}
+                              iconStyle={
+                                Object {
+                                  "height": 24,
+                                  "width": 24,
+                                }
+                              }
+                              inputType="radio"
+                              label="USD"
+                              labelPosition="right"
+                              labelStyle={
+                                Object {
+                                  "color": "rgba(0, 0, 0, 0.87)",
+                                }
+                              }
+                              name="shipSpeed"
+                              onSwitch={[Function]}
+                              rippleColor="#009688"
+                              switchElement={
+                                <div>
+                                  <ToggleRadioButtonUnchecked
+                                    style={
+                                      Object {
+                                        "fill": "rgba(0, 0, 0, 0.87)",
+                                        "opacity": 0,
+                                        "position": "absolute",
+                                        "transform": "scale(0)",
+                                        "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                                      }
+                                    }
+                                  />
+                                  <ToggleRadioButtonChecked
+                                    style={
+                                      Object {
+                                        "fill": "#009688",
+                                        "opacity": 1,
+                                        "position": "absolute",
+                                        "transform": "scale(1)",
+                                        "transformOrigin": "50% 50%",
+                                        "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                                      }
+                                    }
+                                  />
+                                </div>
+                              }
+                              switched={true}
+                              value="usd"
+                            />
+                            <material-ui/internal/EnhancedSwitch
+                              checked={false}
+                              disabled={false}
+                              iconStyle={
+                                Object {
+                                  "height": 24,
+                                  "width": 24,
+                                }
+                              }
+                              inputType="radio"
+                              label="Euro"
+                              labelPosition="right"
+                              labelStyle={
+                                Object {
+                                  "color": "rgba(0, 0, 0, 0.87)",
+                                }
+                              }
+                              name="shipSpeed"
+                              onSwitch={[Function]}
+                              rippleColor="rgba(0, 0, 0, 0.87)"
+                              switchElement={
+                                <div>
+                                  <ToggleRadioButtonUnchecked
+                                    style={
+                                      Object {
+                                        "fill": "rgba(0, 0, 0, 0.87)",
+                                        "opacity": 1,
+                                        "position": "absolute",
+                                        "transform": "scale(1)",
+                                        "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                                      }
+                                    }
+                                  />
+                                  <ToggleRadioButtonChecked
+                                    style={
+                                      Object {
+                                        "fill": "#009688",
+                                        "opacity": 1,
+                                        "position": "absolute",
+                                        "transform": "scale(0)",
+                                        "transformOrigin": "50% 50%",
+                                        "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                                      }
+                                    }
+                                  />
+                                </div>
+                              }
+                              switched={false}
+                              value="euro"
+                            />
+                            <material-ui/internal/EnhancedSwitch
+                              checked={false}
+                              disabled={true}
+                              iconStyle={
+                                Object {
+                                  "height": 24,
+                                  "width": 24,
+                                }
+                              }
+                              inputType="radio"
+                              label="MXN"
+                              labelPosition="right"
+                              labelStyle={
+                                Object {
+                                  "color": "rgba(0, 0, 0, 0.3)",
+                                }
+                              }
+                              name="shipSpeed"
+                              onSwitch={[Function]}
+                              rippleColor="rgba(0, 0, 0, 0.87)"
+                              switchElement={
+                                <div>
+                                  <ToggleRadioButtonUnchecked
+                                    style={
+                                      Object {
+                                        "fill": "rgba(0, 0, 0, 0.3)",
+                                        "opacity": 1,
+                                        "position": "absolute",
+                                        "transform": "scale(1)",
+                                        "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                                      }
+                                    }
+                                  />
+                                  <ToggleRadioButtonChecked
+                                    style={
+                                      Object {
+                                        "fill": "rgba(0, 0, 0, 0.3)",
+                                        "opacity": 1,
+                                        "position": "absolute",
+                                        "transform": "scale(0)",
+                                        "transformOrigin": "50% 50%",
+                                        "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                                      }
+                                    }
+                                  />
+                                </div>
+                              }
+                              switched={false}
+                              value="mxn"
+                            />
+                          </div>
+                        </div>
+                        <div
+                          style={
+                            Object {
+                              "marginBottom": "16px",
+                              "minHeight": "24px",
+                              "textAlign": "left",
+                            }
+                          }
+                        >
+                          <material-ui/internal/EnhancedSwitch
+                            defaultChecked={false}
+                            disabled={false}
+                            iconStyle={
+                              Object {
+                                "padding": "4px 0px 6px 2px",
+                                "width": 36,
+                              }
+                            }
+                            inputType="checkbox"
+                            label="toggle"
+                            labelPosition="left"
+                            labelStyle={
+                              Object {
+                                "color": "rgba(0, 0, 0, 0.87)",
+                                "width": "calc(100% - 46px)",
+                              }
+                            }
+                            name="toggleName1"
+                            onParentShouldUpdate={[Function]}
+                            onSwitch={[Function]}
+                            rippleColor="rgba(0, 0, 0, 0.87)"
+                            rippleStyle={
+                              Object {
+                                "color": "rgba(0, 0, 0, 0.87)",
+                                "left": -10,
+                                "top": -10,
+                              }
+                            }
+                            switchElement={
+                              <div
+                                style={
+                                  Object {
+                                    "muiPrepared": true,
+                                    "width": 36,
+                                  }
+                                }
+                              >
+                                <div
+                                  style={
+                                    Object {
+                                      "backgroundColor": "#536dfe",
+                                      "borderRadius": 30,
+                                      "height": 14,
+                                      "muiPrepared": true,
+                                      "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                                      "width": "100%",
+                                    }
+                                  }
+                                />
+                                <Paper
+                                  circle={true}
+                                  rounded={true}
+                                  style={
+                                    Object {
+                                      "backgroundColor": "#f5f5f5",
+                                      "borderRadius": "50%",
+                                      "height": 20,
+                                      "left": 0,
+                                      "lineHeight": "24px",
+                                      "position": "absolute",
+                                      "top": 1,
+                                      "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                                      "width": 20,
+                                    }
+                                  }
+                                  transitionEnabled={true}
+                                  zDepth={1}
+                                />
+                              </div>
+                            }
+                            switched={false}
+                            thumbStyle={
+                              Object {
+                                "backgroundColor": "#f5f5f5",
+                                "borderRadius": "50%",
+                                "height": 20,
+                                "left": 0,
+                                "lineHeight": "24px",
+                                "position": "absolute",
+                                "top": 1,
+                                "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                                "width": 20,
+                              }
+                            }
+                            trackStyle={
+                              Object {
+                                "backgroundColor": "#536dfe",
+                                "borderRadius": 30,
+                                "height": 14,
+                                "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                                "width": "100%",
+                              }
+                            }
+                          />
+                          <material-ui/internal/EnhancedSwitch
+                            defaultChecked={true}
+                            disabled={true}
+                            iconStyle={
+                              Object {
+                                "padding": "4px 0px 6px 2px",
+                                "width": 36,
+                              }
+                            }
+                            inputType="checkbox"
+                            label="disabled toggle"
+                            labelPosition="left"
+                            labelStyle={
+                              Object {
+                                "color": "rgba(0, 0, 0, 0.3)",
+                                "width": "calc(100% - 46px)",
+                              }
+                            }
+                            name="toggleName2"
+                            onParentShouldUpdate={[Function]}
+                            onSwitch={[Function]}
+                            rippleColor="#009688"
+                            rippleStyle={
+                              Object {
+                                "color": "#009688",
+                                "left": -10,
+                                "top": -10,
+                              }
+                            }
+                            switchElement={
+                              <div
+                                style={
+                                  Object {
+                                    "muiPrepared": true,
+                                    "width": 36,
+                                  }
+                                }
+                              >
+                                <div
+                                  style={
+                                    Object {
+                                      "backgroundColor": "#536dfe",
+                                      "borderRadius": 30,
+                                      "height": 14,
+                                      "muiPrepared": true,
+                                      "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                                      "width": "100%",
+                                    }
+                                  }
+                                />
+                                <Paper
+                                  circle={true}
+                                  rounded={true}
+                                  style={
+                                    Object {
+                                      "backgroundColor": "#e0e0e0",
+                                      "borderRadius": "50%",
+                                      "height": 20,
+                                      "left": "100%",
+                                      "lineHeight": "24px",
+                                      "marginLeft": -20,
+                                      "position": "absolute",
+                                      "top": 1,
+                                      "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                                      "width": 20,
+                                    }
+                                  }
+                                  transitionEnabled={true}
+                                  zDepth={1}
+                                />
+                              </div>
+                            }
+                            switched={true}
+                            thumbStyle={
+                              Object {
+                                "backgroundColor": "#e0e0e0",
+                                "borderRadius": "50%",
+                                "height": 20,
+                                "left": "100%",
+                                "lineHeight": "24px",
+                                "marginLeft": -20,
+                                "position": "absolute",
+                                "top": 1,
+                                "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                                "width": 20,
+                              }
+                            }
+                            trackStyle={
+                              Object {
+                                "backgroundColor": "#536dfe",
+                                "borderRadius": 30,
+                                "height": 14,
+                                "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                                "width": "100%",
+                              }
+                            }
+                          />
+                        </div>
+                      </div>
+                      <div
+                        style={
+                          Object {
+                            "boxSizing": "border-box",
+                            "float": "left",
+                            "marginTop": 0,
+                            "padding": "0 50px",
+                            "width": "33%",
+                          }
+                        }
+                      >
+                        <div
+                          style={
+                            Object {
+                              "marginBottom": "16px",
+                              "minHeight": "24px",
+                              "textAlign": "left",
+                            }
+                          }
+                        >
+                          <material-ui/TextField
+                            hintText="TextField"
+                            style={
+                              Object {
+                                "width": "100%",
+                              }
+                            }
+                          />
+                        </div>
+                        <div
+                          style={
+                            Object {
+                              "marginBottom": "16px",
+                              "minHeight": "24px",
+                              "textAlign": "left",
+                            }
+                          }
+                        >
+                          <div
+                            style={
+                              Object {
+                                "muiPrepared": true,
+                                "width": "100%",
+                              }
+                            }
+                          >
+                            <material-ui/TextField
+                              disabled={false}
+                              hintText="Landscape Dialog"
+                              onFocus={[Function]}
+                              onTouchTap={[Function]}
+                              value=""
+                            />
+                            <div>
+                              <material-ui/internal/RenderToLayer
+                                open={true}
+                                render={[Function]}
+                                useLayerForClickAway={false}
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          style={
+                            Object {
+                              "marginBottom": "16px",
+                              "minHeight": "24px",
+                              "textAlign": "left",
+                            }
+                          }
+                        >
+                          <div
+                            style={
+                              Object {
+                                "display": "inline-block",
+                                "fontFamily": "PT Sans Narrow, sans-serif",
+                                "fontSize": 15,
+                                "height": 48,
+                                "muiPrepared": true,
+                                "outline": "none",
+                                "position": "relative",
+                                "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                                "width": "100%",
+                              }
+                            }
+                          >
+                            <div
+                              onTouchTap={[Function]}
+                              style={
+                                Object {
+                                  "cursor": "pointer",
+                                  "height": "100%",
+                                  "muiPrepared": true,
+                                  "position": "relative",
+                                  "width": "100%",
+                                }
+                              }
+                            >
+                              <div
+                                style={
+                                  Object {
+                                    "boxSizing": "border-box",
+                                    "content": "' '",
+                                    "display": "table",
+                                    "muiPrepared": true,
+                                  }
+                                }
+                              />
+                              <div
+                                style={
+                                  Object {
+                                    "color": "rgba(0, 0, 0, 0.87)",
+                                    "height": "56px",
+                                    "lineHeight": "56px",
+                                    "muiPrepared": true,
+                                    "opacity": 1,
+                                    "overflow": "hidden",
+                                    "paddingLeft": 24,
+                                    "paddingRight": 56,
+                                    "position": "relative",
+                                    "textOverflow": "ellipsis",
+                                    "top": 0,
+                                    "whiteSpace": "nowrap",
+                                  }
+                                }
+                              >
+                                Weeknights
+                              </div>
+                              <material-ui/internal/EnhancedButton
+                                centerRipple={true}
+                                disableTouchRipple={false}
+                                disabled={false}
+                                onBlur={[Function]}
+                                onFocus={[Function]}
+                                onKeyDown={[Function]}
+                                onKeyboardFocus={[Function]}
+                                onMouseEnter={[Function]}
+                                onMouseLeave={[Function]}
+                                onMouseOut={[Function]}
+                                onTouchStart={[Function]}
+                                style={
+                                  Object {
+                                    "boxSizing": "border-box",
+                                    "fill": "#e0e0e0",
+                                    "fontSize": 0,
+                                    "height": 48,
+                                    "overflow": "visible",
+                                    "padding": 12,
+                                    "position": "absolute",
+                                    "right": 16,
+                                    "top": 4,
+                                    "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                                    "width": 48,
+                                  }
+                                }
+                              >
+                                <svg
+                                  onMouseEnter={[Function]}
+                                  onMouseLeave={[Function]}
+                                  style={
+                                    Object {
+                                      "color": "rgba(0, 0, 0, 0.87)",
+                                      "display": "inline-block",
+                                      "fill": "inherit",
+                                      "height": 24,
+                                      "muiPrepared": true,
+                                      "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                                      "userSelect": "none",
+                                      "width": 24,
+                                    }
+                                  }
+                                  viewBox="0 0 24 24"
+                                >
+                                  <path
+                                    d="M7 10l5 5 5-5z"
+                                  />
+                                </svg>
+                              </material-ui/internal/EnhancedButton>
+                              <div
+                                style={
+                                  Object {
+                                    "borderTop": "solid 1px #e0e0e0",
+                                    "bottom": 1,
+                                    "left": 0,
+                                    "margin": "-1px 24px",
+                                    "muiPrepared": true,
+                                    "position": "absolute",
+                                    "right": 0,
+                                  }
+                                }
+                              />
+                              <div
+                                style={
+                                  Object {
+                                    "boxSizing": "border-box",
+                                    "clear": "both",
+                                    "content": "' '",
+                                    "display": "table",
+                                    "muiPrepared": true,
+                                  }
+                                }
+                              />
+                            </div>
+                            <div
+                              style={
+                                Object {
+                                  "display": "none",
+                                }
+                              }
+                            >
+                              <material-ui/internal/RenderToLayer
+                                componentClickAway={[Function]}
+                                open={false}
+                                render={[Function]}
+                                useLayerForClickAway={true}
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        style={
+                          Object {
+                            "boxSizing": "border-box",
+                            "float": "left",
+                            "marginTop": "0px",
+                            "padding": "0 50px",
+                            "width": "100%",
+                          }
+                        }
+                      >
+                        <div
+                          defaultValue={0.5}
+                          style={
+                            Object {
+                              "marginBottom": "0px",
+                              "marginTop": "0px",
+                              "muiPrepared": true,
+                            }
+                          }
+                        >
+                          <span />
+                          <span />
+                          <div
+                            onBlur={[Function]}
+                            onFocus={[Function]}
+                            onKeyDown={[Function]}
+                            onMouseDown={[Function]}
+                            onMouseEnter={[Function]}
+                            onMouseLeave={[Function]}
+                            onMouseUp={[Function]}
+                            onTouchStart={[Function]}
+                            style={
+                              Object {
+                                "cursor": "default",
+                                "height": 18,
+                                "marginBottom": 48,
+                                "marginTop": 24,
+                                "muiPrepared": true,
+                                "position": "relative",
+                                "touchCallout": "none",
+                                "userSelect": "none",
+                                "width": "100%",
+                              }
+                            }
+                          >
+                            <div
+                              style={
+                                Object {
+                                  "height": 2,
+                                  "left": 0,
+                                  "muiPrepared": true,
+                                  "position": "absolute",
+                                  "top": 8,
+                                  "width": "100%",
+                                }
+                              }
+                            >
+                              <div
+                                style={
+                                  Object {
+                                    "[object Object]": 0,
+                                    "backgroundColor": "#009688",
+                                    "height": "100%",
+                                    "left": 0,
+                                    "marginRight": 6,
+                                    "muiPrepared": true,
+                                    "position": "absolute",
+                                    "transition": "margin 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                                    "width": "calc(50%)",
+                                  }
+                                }
+                              />
+                              <div
+                                style={
+                                  Object {
+                                    "[object Object]": 0,
+                                    "backgroundColor": "#536dfe",
+                                    "height": "100%",
+                                    "marginLeft": 6,
+                                    "muiPrepared": true,
+                                    "position": "absolute",
+                                    "right": 0,
+                                    "transition": "margin 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                                    "width": "calc(50%)",
+                                  }
+                                }
+                              />
+                              <div
+                                style={
+                                  Object {
+                                    "backgroundClip": "padding-box",
+                                    "backgroundColor": "#009688",
+                                    "border": "0px solid transparent",
+                                    "borderRadius": "50%",
+                                    "boxSizing": "border-box",
+                                    "cursor": "pointer",
+                                    "height": 12,
+                                    "left": "50%",
+                                    "margin": "1px 0 0 0",
+                                    "muiPrepared": true,
+                                    "outline": "none",
+                                    "overflow": "visible",
+                                    "pointerEvents": "inherit",
+                                    "position": "absolute",
+                                    "top": 0,
+                                    "transform": "translate(-50%, -50%)",
+                                    "transition": "background 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms, border-color 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms, width 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms, height 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                                    "width": 12,
+                                    "zIndex": 1,
+                                  }
+                                }
+                                tabIndex={0}
+                              >
+                                <div
+                                  style={
+                                    Object {
+                                      "height": 12,
+                                      "left": 0,
+                                      "muiPrepared": true,
+                                      "overflow": "visible",
+                                      "position": "absolute",
+                                      "top": 0,
+                                      "width": 12,
+                                    }
+                                  }
+                                />
+                              </div>
+                            </div>
+                          </div>
+                          <input
+                            max={1}
+                            min={0}
+                            name="slider2"
+                            required={true}
+                            step={0.01}
+                            type="hidden"
+                            value={0.5}
+                          />
+                        </div>
+                      </div>
+                      <div
+                        style={
+                          Object {
+                            "boxSizing": "border-box",
+                            "float": "left",
+                            "marginTop": "16px",
+                            "padding": "0 50px",
+                            "width": "33%",
+                          }
+                        }
+                      >
+                        <div
+                          style={
+                            Object {
+                              "marginBottom": "16px",
+                              "minHeight": "24px",
+                              "textAlign": "center",
+                            }
+                          }
+                        >
+                          <material-ui/internal/EnhancedButton
+                            disabled={false}
+                            focusRippleColor="#999999"
+                            focusRippleOpacity={0.3}
+                            onKeyboardFocus={[Function]}
+                            onMouseEnter={[Function]}
+                            onMouseLeave={[Function]}
+                            onTouchStart={[Function]}
+                            onTouchTap={[Function]}
+                            style={
+                              Object {
+                                "backgroundColor": "rgba(0, 0, 0, 0)",
+                                "borderRadius": 2,
+                                "color": "rgba(0, 0, 0, 0.87)",
+                                "height": 36,
+                                "lineHeight": "36px",
+                                "margin": 0,
+                                "minWidth": 88,
+                                "overflow": "hidden",
+                                "padding": 0,
+                                "textAlign": "center",
+                                "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                                "userSelect": "none",
+                              }
+                            }
+                            touchRippleColor="#999999"
+                            touchRippleOpacity={0.3}
+                          >
+                            <span
+                              style={
+                                Object {
+                                  "fontSize": 14,
+                                  "fontWeight": 500,
+                                  "letterSpacing": 0,
+                                  "muiPrepared": true,
+                                  "paddingLeft": 16,
+                                  "paddingRight": 16,
+                                  "position": "relative",
+                                  "textTransform": "uppercase",
+                                  "verticalAlign": "middle",
+                                }
+                              }
+                            >
+                              Dialog
+                            </span>
+                          </material-ui/internal/EnhancedButton>
+                          <material-ui/internal/RenderToLayer
+                            open={true}
+                            render={[Function]}
+                            useLayerForClickAway={false}
+                          />
+                        </div>
+                      </div>
+                      <div
+                        style={
+                          Object {
+                            "boxSizing": "border-box",
+                            "float": "left",
+                            "marginTop": "16px",
+                            "padding": "0 50px",
+                            "width": "33%",
+                          }
+                        }
+                      >
+                        <div
+                          style={
+                            Object {
+                              "marginBottom": "16px",
+                              "minHeight": "24px",
+                              "textAlign": "center",
+                            }
+                          }
+                        >
+                          <material-ui/internal/EnhancedButton
+                            disabled={false}
+                            focusRippleColor="#999999"
+                            focusRippleOpacity={0.3}
+                            onKeyboardFocus={[Function]}
+                            onMouseEnter={[Function]}
+                            onMouseLeave={[Function]}
+                            onTouchStart={[Function]}
+                            onTouchTap={[Function]}
+                            style={
+                              Object {
+                                "backgroundColor": "rgba(0, 0, 0, 0)",
+                                "borderRadius": 2,
+                                "color": "rgba(0, 0, 0, 0.87)",
+                                "height": 36,
+                                "lineHeight": "36px",
+                                "margin": 0,
+                                "minWidth": 88,
+                                "overflow": "hidden",
+                                "padding": 0,
+                                "textAlign": "center",
+                                "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                                "userSelect": "none",
+                              }
+                            }
+                            touchRippleColor="#999999"
+                            touchRippleOpacity={0.3}
+                          >
+                            <span
+                              style={
+                                Object {
+                                  "fontSize": 14,
+                                  "fontWeight": 500,
+                                  "letterSpacing": 0,
+                                  "muiPrepared": true,
+                                  "paddingLeft": 16,
+                                  "paddingRight": 16,
+                                  "position": "relative",
+                                  "textTransform": "uppercase",
+                                  "verticalAlign": "middle",
+                                }
+                              }
+                            >
+                              Drawer
+                            </span>
+                          </material-ui/internal/EnhancedButton>
+                          <div>
+                            <div
+                              onTouchTap={[Function]}
+                              style={
+                                Object {
+                                  "WebkitTapHighlightColor": "rgba(0, 0, 0, 0)",
+                                  "backgroundColor": "rgba(0, 0, 0, 0.54)",
+                                  "height": "100%",
+                                  "left": "-100%",
+                                  "muiPrepared": true,
+                                  "opacity": 0,
+                                  "pointerEvents": "none",
+                                  "position": "fixed",
+                                  "top": 0,
+                                  "transform": "translateZ(0)",
+                                  "transition": "left 0ms cubic-bezier(0.23, 1, 0.32, 1) 400ms, opacity 400ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                                  "width": "100%",
+                                  "willChange": "opacity",
+                                  "zIndex": 1200,
+                                }
+                              }
+                            />
+                            <div
+                              style={
+                                Object {
+                                  "WebkitOverflowScrolling": "touch",
+                                  "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+                                  "backgroundColor": "#ffffff",
+                                  "borderRadius": "0px",
+                                  "boxShadow": "0 3px 10px rgba(0, 0, 0, 0.16),
+         0 3px 10px rgba(0, 0, 0, 0.23)",
+                                  "boxSizing": "border-box",
+                                  "color": "rgba(0, 0, 0, 0.87)",
+                                  "fontFamily": "PT Sans Narrow, sans-serif",
+                                  "height": "100%",
+                                  "left": 0,
+                                  "muiPrepared": true,
+                                  "overflow": "auto",
+                                  "position": "fixed",
+                                  "top": 0,
+                                  "transform": "translate(-266px, 0)",
+                                  "transition": "transform 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                                  "width": 256,
+                                  "zIndex": 1300,
+                                }
+                              }
+                            >
+                              <div>
+                                <material-ui/internal/EnhancedButton
+                                  containerElement="span"
+                                  disableKeyboardFocus={false}
+                                  onKeyboardFocus={[Function]}
+                                  onMouseEnter={[Function]}
+                                  onMouseLeave={[Function]}
+                                  onTouchEnd={[Function]}
+                                  onTouchStart={[Function]}
+                                  open={null}
+                                  role="menuitem"
+                                  style={
+                                    Object {
+                                      "backgroundColor": null,
+                                      "color": "rgba(0, 0, 0, 0.87)",
+                                      "cursor": "pointer",
+                                      "display": "block",
+                                      "fontSize": 16,
+                                      "lineHeight": "48px",
+                                      "minHeight": "48px",
+                                      "position": "relative",
+                                      "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                                      "whiteSpace": "nowrap",
+                                    }
+                                  }
+                                >
+                                  <div
+                                    style={
+                                      Object {
+                                        "marginLeft": 0,
+                                        "muiPrepared": true,
+                                        "paddingBottom": 0,
+                                        "paddingLeft": 16,
+                                        "paddingRight": 16,
+                                        "paddingTop": 0,
+                                        "position": "relative",
+                                      }
+                                    }
+                                  >
+                                    Menu Item
+                                  </div>
+                                </material-ui/internal/EnhancedButton>
+                              </div>
+                              <div>
+                                <material-ui/internal/EnhancedButton
+                                  containerElement="span"
+                                  disableKeyboardFocus={false}
+                                  onKeyboardFocus={[Function]}
+                                  onMouseEnter={[Function]}
+                                  onMouseLeave={[Function]}
+                                  onTouchEnd={[Function]}
+                                  onTouchStart={[Function]}
+                                  open={null}
+                                  role="menuitem"
+                                  style={
+                                    Object {
+                                      "backgroundColor": null,
+                                      "color": "rgba(0, 0, 0, 0.87)",
+                                      "cursor": "pointer",
+                                      "display": "block",
+                                      "fontSize": 16,
+                                      "lineHeight": "48px",
+                                      "minHeight": "48px",
+                                      "position": "relative",
+                                      "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                                      "whiteSpace": "nowrap",
+                                    }
+                                  }
+                                >
+                                  <div
+                                    style={
+                                      Object {
+                                        "marginLeft": 0,
+                                        "muiPrepared": true,
+                                        "paddingBottom": 0,
+                                        "paddingLeft": 16,
+                                        "paddingRight": 16,
+                                        "paddingTop": 0,
+                                        "position": "relative",
+                                      }
+                                    }
+                                  >
+                                    Menu Item 2
+                                  </div>
+                                </material-ui/internal/EnhancedButton>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        style={
+                          Object {
+                            "boxSizing": "border-box",
+                            "float": "left",
+                            "marginTop": "16px",
+                            "padding": "0 50px",
+                            "width": "33%",
+                          }
+                        }
+                      >
+                        <div
+                          style={
+                            Object {
+                              "marginBottom": "16px",
+                              "minHeight": "24px",
+                              "textAlign": "center",
+                            }
+                          }
+                        >
+                          <material-ui/internal/EnhancedButton
+                            disabled={false}
+                            focusRippleColor="#999999"
+                            focusRippleOpacity={0.3}
+                            onKeyboardFocus={[Function]}
+                            onMouseEnter={[Function]}
+                            onMouseLeave={[Function]}
+                            onTouchStart={[Function]}
+                            onTouchTap={[Function]}
+                            style={
+                              Object {
+                                "backgroundColor": "rgba(0, 0, 0, 0)",
+                                "borderRadius": 2,
+                                "color": "rgba(0, 0, 0, 0.87)",
+                                "height": 36,
+                                "lineHeight": "36px",
+                                "margin": 0,
+                                "minWidth": 88,
+                                "overflow": "hidden",
+                                "padding": 0,
+                                "textAlign": "center",
+                                "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                                "userSelect": "none",
+                              }
+                            }
+                            touchRippleColor="#999999"
+                            touchRippleOpacity={0.3}
+                          >
+                            <span
+                              style={
+                                Object {
+                                  "fontSize": 14,
+                                  "fontWeight": 500,
+                                  "letterSpacing": 0,
+                                  "muiPrepared": true,
+                                  "paddingLeft": 16,
+                                  "paddingRight": 16,
+                                  "position": "relative",
+                                  "textTransform": "uppercase",
+                                  "verticalAlign": "middle",
+                                }
+                              }
+                            >
+                              Snackbar
+                            </span>
+                          </material-ui/internal/EnhancedButton>
+                        </div>
+                        <div
+                          action="Got It!"
+                          open={false}
+                          style={
+                            Object {
+                              "bottom": 0,
+                              "display": "flex",
+                              "left": "50%",
+                              "muiPrepared": true,
+                              "position": "fixed",
+                              "transform": "translate(-50%, 48px)",
+                              "transition": "transform 400ms cubic-bezier(0.23, 1, 0.32, 1) 0ms, visibility 400ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                              "visibility": "hidden",
+                              "zIndex": 2900,
+                            }
+                          }
+                        >
+                          <div
+                            style={
+                              Object {
+                                "backgroundColor": "rgba(0, 0, 0, 0.87)",
+                                "borderRadius": 2,
+                                "flexGrow": 0,
+                                "fontFamily": "PT Sans Narrow, sans-serif",
+                                "height": 48,
+                                "lineHeight": "48px",
+                                "maxWidth": 568,
+                                "minWidth": 288,
+                                "muiPrepared": true,
+                                "padding": "0 24px",
+                                "width": "auto",
+                              }
+                            }
+                            width={3}
+                          >
+                            <div
+                              style={
+                                Object {
+                                  "color": "#ffffff",
+                                  "fontSize": 14,
+                                  "muiPrepared": true,
+                                  "opacity": 0,
+                                  "transition": "opacity 400ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                                }
+                              }
+                            >
+                              <span>
+                                This is a snackbar
+                              </span>
+                              <material-ui/internal/EnhancedButton
+                                disabled={false}
+                                focusRippleColor="#999999"
+                                focusRippleOpacity={0.3}
+                                onKeyboardFocus={[Function]}
+                                onMouseEnter={[Function]}
+                                onMouseLeave={[Function]}
+                                onTouchStart={[Function]}
+                                onTouchTap={[Function]}
+                                style={
+                                  Object {
+                                    "backgroundColor": "transparent",
+                                    "borderRadius": 2,
+                                    "color": "#536dfe",
+                                    "float": "right",
+                                    "height": 36,
+                                    "lineHeight": "36px",
+                                    "margin": 0,
+                                    "marginLeft": 24,
+                                    "marginRight": -16,
+                                    "marginTop": 6,
+                                    "minWidth": 88,
+                                    "overflow": "hidden",
+                                    "padding": 0,
+                                    "textAlign": "center",
+                                    "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                                    "userSelect": "none",
+                                  }
+                                }
+                                touchRippleColor="#999999"
+                                touchRippleOpacity={0.3}
+                              >
+                                <span
+                                  style={
+                                    Object {
+                                      "fontSize": 14,
+                                      "fontWeight": 500,
+                                      "letterSpacing": 0,
+                                      "muiPrepared": true,
+                                      "paddingLeft": 16,
+                                      "paddingRight": 16,
+                                      "position": "relative",
+                                      "textTransform": "uppercase",
+                                      "verticalAlign": "middle",
+                                    }
+                                  }
+                                >
+                                  Got It!
+                                </span>
+                              </material-ui/internal/EnhancedButton>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        style={
+                          Object {
+                            "boxSizing": "border-box",
+                            "clear": "both",
+                            "content": "' '",
+                            "display": "table",
+                            "muiPrepared": true,
+                          }
+                        }
+                      />
+                    </div>
+                  </div>
+                  <div
+                    style={
+                      Object {
+                        "boxSizing": "border-box",
+                        "clear": "both",
+                        "content": "' '",
+                        "display": "table",
+                        "muiPrepared": true,
+                      }
+                    }
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <span
+      className="Resizer vertical "
+      onClick={[Function]}
+      onDoubleClick={[Function]}
+      onMouseDown={[Function]}
+      onTouchEnd={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "cursor": "col-resize",
+          "marginRight": -6,
+          "width": 10,
+          "zIndex": 1,
+        }
+      }
+    />
+    <div
+      className="Pane vertical Pane2  "
+      style={
+        Object {
+          "flex": "none",
+          "outline": "none",
+          "position": "relative",
+          "width": 0,
+        }
+      }
+    >
+      <div
+        className="sb-addon-material-ui-theme_sidebar"
+        style={
+          Object {
+            "height": "100%",
+            "width": "100%",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots AnimationManager Component 1`] = `
+<div
+  style={
+    Object {
+      "background": "#ffffff",
+      "bottom": 0,
+      "left": 0,
+      "position": "absolute",
+      "right": 0,
+      "top": 0,
+    }
+  }
+>
+  <div
+    className="SplitPane  vertical "
+    style={
+      Object {
+        "MozUserSelect": "text",
+        "WebkitUserSelect": "text",
+        "display": "flex",
+        "flex": 1,
+        "flexDirection": "row",
+        "height": "100%",
+        "left": 0,
+        "msUserSelect": "text",
+        "outline": "none",
+        "overflow": "hidden",
+        "position": "absolute",
+        "right": 0,
+        "userSelect": "text",
+      }
+    }
+  >
+    <div
+      className="Pane vertical Pane1  "
+      style={
+        Object {
+          "flex": 1,
+          "outline": "none",
+          "overflowX": "auto",
+          "overflowY": "auto",
+          "position": "relative",
+        }
+      }
+    >
+      <div>
+        <div
+          style={
+            Object {
+              "display": "flex",
+              "justifyContent": "center",
+              "marginTop": "20px",
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "maxWidth": 1000,
+                "minWidth": 200,
+                "width": "80%",
+              }
+            }
+          >
+            <div>
+              <div
+                className="animation-wrapper"
+              >
+                <div
+                  className="animation-panel"
+                  style={
+                    Object {
+                      "transform": "translate(0%)",
+                      "transitionDuration": "0ms",
+                      "transitionProperty": Array [
+                        "opacity",
+                        "transform",
+                      ],
+                      "transitionTimingFunction": "ease-out",
+                      "zIndex": 1,
+                    }
+                  }
+                >
+                  <div
+                    className="inner_panel"
+                  >
+                    key :
+                     
+                    1
+                  </div>
+                </div>
+                <div
+                  className="animation-panel"
+                  style={
+                    Object {
+                      "transform": "translate(100%)",
+                      "transitionDuration": "0ms",
+                      "transitionProperty": Array [
+                        "opacity",
+                        "transform",
+                      ],
+                      "transitionTimingFunction": "ease-out",
+                      "zIndex": 2,
+                    }
+                  }
+                >
+                  <div
+                    className="inner_panel"
+                  >
+                    key :
+                     
+                    2
+                  </div>
+                </div>
+              </div>
+              <div
+                style={
+                  Object {
+                    "marginBottom": -10,
+                    "marginTop": 8,
+                    "textAlign": "center",
+                  }
+                }
+              >
+                Click the button with animation type to start the animation
+              </div>
+              <div
+                className="button-layout"
+              >
+                <div
+                  className="action-button"
+                  style={
+                    Object {
+                      "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+                      "backgroundColor": "#ffffff",
+                      "borderRadius": 2,
+                      "boxShadow": "0 1px 6px rgba(0, 0, 0, 0.12),
+         0 1px 4px rgba(0, 0, 0, 0.12)",
+                      "boxSizing": "border-box",
+                      "color": "rgba(0, 0, 0, 0.87)",
+                      "display": "inline-block",
+                      "fontFamily": "PT Sans Narrow, sans-serif",
+                      "minWidth": 88,
+                      "muiPrepared": true,
+                      "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                    }
+                  }
+                >
+                  <material-ui/internal/EnhancedButton
+                    disabled={false}
+                    focusRippleColor="#ffffff"
+                    focusRippleOpacity={0.16}
+                    onClick={[Function]}
+                    onKeyboardFocus={[Function]}
+                    onMouseDown={[Function]}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchStart={[Function]}
+                    style={
+                      Object {
+                        "backgroundColor": "#009688",
+                        "borderRadius": 2,
+                        "height": 36,
+                        "lineHeight": "36px",
+                        "padding": 0,
+                        "textAlign": "center",
+                        "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                        "width": "100%",
+                      }
+                    }
+                    touchRippleColor="#ffffff"
+                    touchRippleOpacity={0.16}
+                  >
+                    <div
+                      style={
+                        Object {
+                          "backgroundColor": false,
+                          "borderRadius": 2,
+                          "height": 36,
+                          "muiPrepared": true,
+                          "top": 0,
+                          "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                        }
+                      }
+                    >
+                      <span
+                        style={
+                          Object {
+                            "color": "#ffffff",
+                            "fontSize": 14,
+                            "fontWeight": 500,
+                            "letterSpacing": 0,
+                            "margin": 0,
+                            "muiPrepared": true,
+                            "opacity": 1,
+                            "paddingLeft": 16,
+                            "paddingRight": 16,
+                            "position": "relative",
+                            "textTransform": "uppercase",
+                            "userSelect": "none",
+                          }
+                        }
+                      >
+                        left2
+                      </span>
+                    </div>
+                  </material-ui/internal/EnhancedButton>
+                </div>
+                <div
+                  className="action-button"
+                  style={
+                    Object {
+                      "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+                      "backgroundColor": "#ffffff",
+                      "borderRadius": 2,
+                      "boxShadow": "0 1px 6px rgba(0, 0, 0, 0.12),
+         0 1px 4px rgba(0, 0, 0, 0.12)",
+                      "boxSizing": "border-box",
+                      "color": "rgba(0, 0, 0, 0.87)",
+                      "display": "inline-block",
+                      "fontFamily": "PT Sans Narrow, sans-serif",
+                      "minWidth": 88,
+                      "muiPrepared": true,
+                      "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                    }
+                  }
+                >
+                  <material-ui/internal/EnhancedButton
+                    disabled={false}
+                    focusRippleColor="#ffffff"
+                    focusRippleOpacity={0.16}
+                    onClick={[Function]}
+                    onKeyboardFocus={[Function]}
+                    onMouseDown={[Function]}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchStart={[Function]}
+                    style={
+                      Object {
+                        "backgroundColor": "#009688",
+                        "borderRadius": 2,
+                        "height": 36,
+                        "lineHeight": "36px",
+                        "padding": 0,
+                        "textAlign": "center",
+                        "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                        "width": "100%",
+                      }
+                    }
+                    touchRippleColor="#ffffff"
+                    touchRippleOpacity={0.16}
+                  >
+                    <div
+                      style={
+                        Object {
+                          "backgroundColor": false,
+                          "borderRadius": 2,
+                          "height": 36,
+                          "muiPrepared": true,
+                          "top": 0,
+                          "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                        }
+                      }
+                    >
+                      <span
+                        style={
+                          Object {
+                            "color": "#ffffff",
+                            "fontSize": 14,
+                            "fontWeight": 500,
+                            "letterSpacing": 0,
+                            "margin": 0,
+                            "muiPrepared": true,
+                            "opacity": 1,
+                            "paddingLeft": 16,
+                            "paddingRight": 16,
+                            "position": "relative",
+                            "textTransform": "uppercase",
+                            "userSelect": "none",
+                          }
+                        }
+                      >
+                        left1
+                      </span>
+                    </div>
+                  </material-ui/internal/EnhancedButton>
+                </div>
+                <div
+                  className="action-button"
+                  style={
+                    Object {
+                      "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+                      "backgroundColor": "#ffffff",
+                      "borderRadius": 2,
+                      "boxShadow": "0 1px 6px rgba(0, 0, 0, 0.12),
+         0 1px 4px rgba(0, 0, 0, 0.12)",
+                      "boxSizing": "border-box",
+                      "color": "rgba(0, 0, 0, 0.87)",
+                      "display": "inline-block",
+                      "fontFamily": "PT Sans Narrow, sans-serif",
+                      "minWidth": 88,
+                      "muiPrepared": true,
+                      "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                    }
+                  }
+                >
+                  <material-ui/internal/EnhancedButton
+                    disabled={false}
+                    focusRippleColor="#ffffff"
+                    focusRippleOpacity={0.16}
+                    onClick={[Function]}
+                    onKeyboardFocus={[Function]}
+                    onMouseDown={[Function]}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchStart={[Function]}
+                    style={
+                      Object {
+                        "backgroundColor": "#009688",
+                        "borderRadius": 2,
+                        "height": 36,
+                        "lineHeight": "36px",
+                        "padding": 0,
+                        "textAlign": "center",
+                        "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                        "width": "100%",
+                      }
+                    }
+                    touchRippleColor="#ffffff"
+                    touchRippleOpacity={0.16}
+                  >
+                    <div
+                      style={
+                        Object {
+                          "backgroundColor": false,
+                          "borderRadius": 2,
+                          "height": 36,
+                          "muiPrepared": true,
+                          "top": 0,
+                          "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                        }
+                      }
+                    >
+                      <span
+                        style={
+                          Object {
+                            "color": "#ffffff",
+                            "fontSize": 14,
+                            "fontWeight": 500,
+                            "letterSpacing": 0,
+                            "margin": 0,
+                            "muiPrepared": true,
+                            "opacity": 1,
+                            "paddingLeft": 16,
+                            "paddingRight": 16,
+                            "position": "relative",
+                            "textTransform": "uppercase",
+                            "userSelect": "none",
+                          }
+                        }
+                      >
+                        right1
+                      </span>
+                    </div>
+                  </material-ui/internal/EnhancedButton>
+                </div>
+                <div
+                  className="action-button"
+                  style={
+                    Object {
+                      "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+                      "backgroundColor": "#ffffff",
+                      "borderRadius": 2,
+                      "boxShadow": "0 1px 6px rgba(0, 0, 0, 0.12),
+         0 1px 4px rgba(0, 0, 0, 0.12)",
+                      "boxSizing": "border-box",
+                      "color": "rgba(0, 0, 0, 0.87)",
+                      "display": "inline-block",
+                      "fontFamily": "PT Sans Narrow, sans-serif",
+                      "minWidth": 88,
+                      "muiPrepared": true,
+                      "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                    }
+                  }
+                >
+                  <material-ui/internal/EnhancedButton
+                    disabled={false}
+                    focusRippleColor="#ffffff"
+                    focusRippleOpacity={0.16}
+                    onClick={[Function]}
+                    onKeyboardFocus={[Function]}
+                    onMouseDown={[Function]}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchStart={[Function]}
+                    style={
+                      Object {
+                        "backgroundColor": "#009688",
+                        "borderRadius": 2,
+                        "height": 36,
+                        "lineHeight": "36px",
+                        "padding": 0,
+                        "textAlign": "center",
+                        "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                        "width": "100%",
+                      }
+                    }
+                    touchRippleColor="#ffffff"
+                    touchRippleOpacity={0.16}
+                  >
+                    <div
+                      style={
+                        Object {
+                          "backgroundColor": false,
+                          "borderRadius": 2,
+                          "height": 36,
+                          "muiPrepared": true,
+                          "top": 0,
+                          "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                        }
+                      }
+                    >
+                      <span
+                        style={
+                          Object {
+                            "color": "#ffffff",
+                            "fontSize": 14,
+                            "fontWeight": 500,
+                            "letterSpacing": 0,
+                            "margin": 0,
+                            "muiPrepared": true,
+                            "opacity": 1,
+                            "paddingLeft": 16,
+                            "paddingRight": 16,
+                            "position": "relative",
+                            "textTransform": "uppercase",
+                            "userSelect": "none",
+                          }
+                        }
+                      >
+                        right2
+                      </span>
+                    </div>
+                  </material-ui/internal/EnhancedButton>
+                </div>
+                <div
+                  className="action-button"
+                  style={
+                    Object {
+                      "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+                      "backgroundColor": "#ffffff",
+                      "borderRadius": 2,
+                      "boxShadow": "0 1px 6px rgba(0, 0, 0, 0.12),
+         0 1px 4px rgba(0, 0, 0, 0.12)",
+                      "boxSizing": "border-box",
+                      "color": "rgba(0, 0, 0, 0.87)",
+                      "display": "inline-block",
+                      "fontFamily": "PT Sans Narrow, sans-serif",
+                      "minWidth": 88,
+                      "muiPrepared": true,
+                      "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                    }
+                  }
+                >
+                  <material-ui/internal/EnhancedButton
+                    disabled={false}
+                    focusRippleColor="#ffffff"
+                    focusRippleOpacity={0.16}
+                    onClick={[Function]}
+                    onKeyboardFocus={[Function]}
+                    onMouseDown={[Function]}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchStart={[Function]}
+                    style={
+                      Object {
+                        "backgroundColor": "#009688",
+                        "borderRadius": 2,
+                        "height": 36,
+                        "lineHeight": "36px",
+                        "padding": 0,
+                        "textAlign": "center",
+                        "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                        "width": "100%",
+                      }
+                    }
+                    touchRippleColor="#ffffff"
+                    touchRippleOpacity={0.16}
+                  >
+                    <div
+                      style={
+                        Object {
+                          "backgroundColor": false,
+                          "borderRadius": 2,
+                          "height": 36,
+                          "muiPrepared": true,
+                          "top": 0,
+                          "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                        }
+                      }
+                    >
+                      <span
+                        style={
+                          Object {
+                            "color": "#ffffff",
+                            "fontSize": 14,
+                            "fontWeight": 500,
+                            "letterSpacing": 0,
+                            "margin": 0,
+                            "muiPrepared": true,
+                            "opacity": 1,
+                            "paddingLeft": 16,
+                            "paddingRight": 16,
+                            "position": "relative",
+                            "textTransform": "uppercase",
+                            "userSelect": "none",
+                          }
+                        }
+                      >
+                        rightFade
+                      </span>
+                    </div>
+                  </material-ui/internal/EnhancedButton>
+                </div>
+                <div
+                  className="action-button"
+                  style={
+                    Object {
+                      "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+                      "backgroundColor": "#ffffff",
+                      "borderRadius": 2,
+                      "boxShadow": "0 1px 6px rgba(0, 0, 0, 0.12),
+         0 1px 4px rgba(0, 0, 0, 0.12)",
+                      "boxSizing": "border-box",
+                      "color": "rgba(0, 0, 0, 0.87)",
+                      "display": "inline-block",
+                      "fontFamily": "PT Sans Narrow, sans-serif",
+                      "minWidth": 88,
+                      "muiPrepared": true,
+                      "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                    }
+                  }
+                >
+                  <material-ui/internal/EnhancedButton
+                    disabled={false}
+                    focusRippleColor="#ffffff"
+                    focusRippleOpacity={0.16}
+                    onClick={[Function]}
+                    onKeyboardFocus={[Function]}
+                    onMouseDown={[Function]}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchStart={[Function]}
+                    style={
+                      Object {
+                        "backgroundColor": "#009688",
+                        "borderRadius": 2,
+                        "height": 36,
+                        "lineHeight": "36px",
+                        "padding": 0,
+                        "textAlign": "center",
+                        "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                        "width": "100%",
+                      }
+                    }
+                    touchRippleColor="#ffffff"
+                    touchRippleOpacity={0.16}
+                  >
+                    <div
+                      style={
+                        Object {
+                          "backgroundColor": false,
+                          "borderRadius": 2,
+                          "height": 36,
+                          "muiPrepared": true,
+                          "top": 0,
+                          "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                        }
+                      }
+                    >
+                      <span
+                        style={
+                          Object {
+                            "color": "#ffffff",
+                            "fontSize": 14,
+                            "fontWeight": 500,
+                            "letterSpacing": 0,
+                            "margin": 0,
+                            "muiPrepared": true,
+                            "opacity": 1,
+                            "paddingLeft": 16,
+                            "paddingRight": 16,
+                            "position": "relative",
+                            "textTransform": "uppercase",
+                            "userSelect": "none",
+                          }
+                        }
+                      >
+                        leftShiftRightFade
+                      </span>
+                    </div>
+                  </material-ui/internal/EnhancedButton>
+                </div>
+              </div>
+              <div
+                style={
+                  Object {
+                    "marginBottom": 10,
+                    "textAlign": "center",
+                  }
+                }
+              >
+                Reset panels keys to try new animation
+              </div>
+              <div
+                style={
+                  Object {
+                    "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+                    "backgroundColor": "#ffffff",
+                    "borderRadius": 2,
+                    "boxShadow": undefined,
+                    "boxSizing": "border-box",
+                    "color": "rgba(0, 0, 0, 0.87)",
+                    "display": "inline-block",
+                    "fontFamily": "PT Sans Narrow, sans-serif",
+                    "minWidth": "100%",
+                    "muiPrepared": true,
+                    "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                  }
+                }
+              >
+                <material-ui/internal/EnhancedButton
+                  disabled={true}
+                  focusRippleColor="rgba(0, 0, 0, 0.3)"
+                  focusRippleOpacity={0.1}
+                  onClick={[Function]}
+                  style={
+                    Object {
+                      "backgroundColor": "rgb(229, 229, 229)",
+                      "borderRadius": 2,
+                      "height": 36,
+                      "lineHeight": "36px",
+                      "padding": 0,
+                      "textAlign": "center",
+                      "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                      "width": "100%",
+                    }
+                  }
+                  touchRippleColor="rgba(0, 0, 0, 0.3)"
+                  touchRippleOpacity={0.1}
+                >
+                  <div
+                    style={
+                      Object {
+                        "backgroundColor": false,
+                        "borderRadius": 2,
+                        "height": 36,
+                        "muiPrepared": true,
+                        "top": 0,
+                        "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                      }
+                    }
+                  >
+                    <span
+                      style={
+                        Object {
+                          "color": "rgba(0, 0, 0, 0.3)",
+                          "fontSize": 14,
+                          "fontWeight": 500,
+                          "letterSpacing": 0,
+                          "margin": 0,
+                          "muiPrepared": true,
+                          "opacity": 1,
+                          "paddingLeft": 16,
+                          "paddingRight": 16,
+                          "position": "relative",
+                          "textTransform": "uppercase",
+                          "userSelect": "none",
+                        }
+                      }
+                    >
+                      reset panels keys
+                    </span>
+                  </div>
+                </material-ui/internal/EnhancedButton>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <span
+      className="Resizer vertical "
+      onClick={[Function]}
+      onDoubleClick={[Function]}
+      onMouseDown={[Function]}
+      onTouchEnd={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "cursor": "col-resize",
+          "marginRight": -6,
+          "width": 10,
+          "zIndex": 1,
+        }
+      }
+    />
+    <div
+      className="Pane vertical Pane2  "
+      style={
+        Object {
+          "flex": "none",
+          "outline": "none",
+          "position": "relative",
+          "width": 0,
+        }
+      }
+    >
+      <div
+        className="sb-addon-material-ui-theme_sidebar"
+        style={
+          Object {
+            "height": "100%",
+            "width": "100%",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Breadcrumbs Fit in viewport 1`] = `
+<div
+  style={
+    Object {
+      "background": "#ffffff",
+      "bottom": 0,
+      "left": 0,
+      "position": "absolute",
+      "right": 0,
+      "top": 0,
+    }
+  }
+>
+  <div
+    className="SplitPane  vertical "
+    style={
+      Object {
+        "MozUserSelect": "text",
+        "WebkitUserSelect": "text",
+        "display": "flex",
+        "flex": 1,
+        "flexDirection": "row",
+        "height": "100%",
+        "left": 0,
+        "msUserSelect": "text",
+        "outline": "none",
+        "overflow": "hidden",
+        "position": "absolute",
+        "right": 0,
+        "userSelect": "text",
+      }
+    }
+  >
+    <div
+      className="Pane vertical Pane1  "
+      style={
+        Object {
+          "flex": 1,
+          "outline": "none",
+          "overflowX": "auto",
+          "overflowY": "auto",
+          "position": "relative",
+        }
+      }
+    >
+      <div>
+        <p>
+           Empty 
+        </p>
+      </div>
+    </div>
+    <span
+      className="Resizer vertical "
+      onClick={[Function]}
+      onDoubleClick={[Function]}
+      onMouseDown={[Function]}
+      onTouchEnd={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "cursor": "col-resize",
+          "marginRight": -6,
+          "width": 10,
+          "zIndex": 1,
+        }
+      }
+    />
+    <div
+      className="Pane vertical Pane2  "
+      style={
+        Object {
+          "flex": "none",
+          "outline": "none",
+          "position": "relative",
+          "width": 0,
+        }
+      }
+    >
+      <div
+        className="sb-addon-material-ui-theme_sidebar"
+        style={
+          Object {
+            "height": "100%",
+            "width": "100%",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Breadcrumbs Larger than viewport 1`] = `
+<div
+  style={
+    Object {
+      "background": "#ffffff",
+      "bottom": 0,
+      "left": 0,
+      "position": "absolute",
+      "right": 0,
+      "top": 0,
+    }
+  }
+>
+  <div
+    className="SplitPane  vertical "
+    style={
+      Object {
+        "MozUserSelect": "text",
+        "WebkitUserSelect": "text",
+        "display": "flex",
+        "flex": 1,
+        "flexDirection": "row",
+        "height": "100%",
+        "left": 0,
+        "msUserSelect": "text",
+        "outline": "none",
+        "overflow": "hidden",
+        "position": "absolute",
+        "right": 0,
+        "userSelect": "text",
+      }
+    }
+  >
+    <div
+      className="Pane vertical Pane1  "
+      style={
+        Object {
+          "flex": 1,
+          "outline": "none",
+          "overflowX": "auto",
+          "overflowY": "auto",
+          "position": "relative",
+        }
+      }
+    >
+      <div>
+        <p>
+           Empty 
+        </p>
+      </div>
+    </div>
+    <span
+      className="Resizer vertical "
+      onClick={[Function]}
+      onDoubleClick={[Function]}
+      onMouseDown={[Function]}
+      onTouchEnd={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "cursor": "col-resize",
+          "marginRight": -6,
+          "width": 10,
+          "zIndex": 1,
+        }
+      }
+    />
+    <div
+      className="Pane vertical Pane2  "
+      style={
+        Object {
+          "flex": "none",
+          "outline": "none",
+          "position": "relative",
+          "width": 0,
+        }
+      }
+    >
+      <div
+        className="sb-addon-material-ui-theme_sidebar"
+        style={
+          Object {
+            "height": "100%",
+            "width": "100%",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Drawer MenuDrawer 1`] = `
+<div
+  style={
+    Object {
+      "background": "#ffffff",
+      "bottom": 0,
+      "left": 0,
+      "position": "absolute",
+      "right": 0,
+      "top": 0,
+    }
+  }
+>
+  <div
+    className="SplitPane  vertical "
+    style={
+      Object {
+        "MozUserSelect": "text",
+        "WebkitUserSelect": "text",
+        "display": "flex",
+        "flex": 1,
+        "flexDirection": "row",
+        "height": "100%",
+        "left": 0,
+        "msUserSelect": "text",
+        "outline": "none",
+        "overflow": "hidden",
+        "position": "absolute",
+        "right": 0,
+        "userSelect": "text",
+      }
+    }
+  >
+    <div
+      className="Pane vertical Pane1  "
+      style={
+        Object {
+          "flex": 1,
+          "outline": "none",
+          "overflowX": "auto",
+          "overflowY": "auto",
+          "position": "relative",
+        }
+      }
+    >
+      <div>
+        <div
+          style={
+            Object {
+              "display": "flex",
+              "justifyContent": "center",
+              "padding": 30,
+            }
+          }
+        >
+          <div>
+            <div
+              style={
+                Object {
+                  "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+                  "backgroundColor": "#ffffff",
+                  "borderRadius": 2,
+                  "boxShadow": "0 1px 6px rgba(0, 0, 0, 0.12),
+         0 1px 4px rgba(0, 0, 0, 0.12)",
+                  "boxSizing": "border-box",
+                  "color": "rgba(0, 0, 0, 0.87)",
+                  "display": "inline-block",
+                  "fontFamily": "PT Sans Narrow, sans-serif",
+                  "minWidth": 88,
+                  "muiPrepared": true,
+                  "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                }
+              }
+            >
+              <material-ui/internal/EnhancedButton
+                disabled={false}
+                focusRippleColor="#ffffff"
+                focusRippleOpacity={0.16}
+                onKeyboardFocus={[Function]}
+                onMouseDown={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchStart={[Function]}
+                onTouchTap={[Function]}
+                style={
+                  Object {
+                    "backgroundColor": "#009688",
+                    "borderRadius": 2,
+                    "height": 36,
+                    "lineHeight": "36px",
+                    "padding": 0,
+                    "textAlign": "center",
+                    "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                    "width": "100%",
+                  }
+                }
+                touchRippleColor="#ffffff"
+                touchRippleOpacity={0.16}
+              >
+                <div
+                  style={
+                    Object {
+                      "backgroundColor": false,
+                      "borderRadius": 2,
+                      "height": 36,
+                      "muiPrepared": true,
+                      "top": 0,
+                      "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                    }
+                  }
+                >
+                  <span
+                    style={
+                      Object {
+                        "color": "#ffffff",
+                        "fontSize": 14,
+                        "fontWeight": 500,
+                        "letterSpacing": 0,
+                        "margin": 0,
+                        "muiPrepared": true,
+                        "opacity": 1,
+                        "paddingLeft": 16,
+                        "paddingRight": 16,
+                        "position": "relative",
+                        "textTransform": "uppercase",
+                        "userSelect": "none",
+                      }
+                    }
+                  >
+                    Show MenuDrawer
+                  </span>
+                </div>
+              </material-ui/internal/EnhancedButton>
+            </div>
+            <div>
+              <div
+                onTouchTap={[Function]}
+                style={
+                  Object {
+                    "WebkitTapHighlightColor": "rgba(0, 0, 0, 0)",
+                    "backgroundColor": "rgba(0, 0, 0, 0.54)",
+                    "height": "100%",
+                    "left": "-100%",
+                    "muiPrepared": true,
+                    "opacity": 0,
+                    "pointerEvents": "none",
+                    "position": "fixed",
+                    "top": 0,
+                    "transform": "translateZ(0)",
+                    "transition": "left 0ms cubic-bezier(0.23, 1, 0.32, 1) 400ms, opacity 400ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                    "width": "100%",
+                    "willChange": "opacity",
+                    "zIndex": 1200,
+                  }
+                }
+              />
+              <div
+                style={
+                  Object {
+                    "WebkitOverflowScrolling": "touch",
+                    "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+                    "backgroundColor": "#ffffff",
+                    "borderRadius": "0px",
+                    "boxShadow": "0 3px 10px rgba(0, 0, 0, 0.16),
+         0 3px 10px rgba(0, 0, 0, 0.23)",
+                    "boxSizing": "border-box",
+                    "color": "rgba(0, 0, 0, 0.87)",
+                    "fontFamily": "PT Sans Narrow, sans-serif",
+                    "height": "100%",
+                    "left": 0,
+                    "muiPrepared": true,
+                    "overflow": "auto",
+                    "position": "fixed",
+                    "top": 0,
+                    "transform": "translate(-266px, 0)",
+                    "transition": "transform 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                    "width": 256,
+                    "zIndex": 1300,
+                  }
+                }
+              >
+                <div
+                  style={
+                    Object {
+                      "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+                      "backgroundColor": "#009688",
+                      "borderRadius": "0px",
+                      "boxShadow": "0 1px 6px rgba(0, 0, 0, 0.12),
+         0 1px 4px rgba(0, 0, 0, 0.12)",
+                      "boxSizing": "border-box",
+                      "color": "rgba(0, 0, 0, 0.87)",
+                      "display": "flex",
+                      "fontFamily": "PT Sans Narrow, sans-serif",
+                      "muiPrepared": true,
+                      "paddingLeft": 24,
+                      "paddingRight": 24,
+                      "position": "relative",
+                      "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                      "width": "100%",
+                      "zIndex": 1100,
+                    }
+                  }
+                >
+                  <div
+                    style={
+                      Object {
+                        "marginLeft": -16,
+                        "marginRight": 8,
+                        "marginTop": 8,
+                        "muiPrepared": true,
+                      }
+                    }
+                  >
+                    <material-ui/internal/EnhancedButton
+                      centerRipple={true}
+                      disableTouchRipple={false}
+                      disabled={false}
+                      onBlur={[Function]}
+                      onFocus={[Function]}
+                      onKeyboardFocus={[Function]}
+                      onMouseEnter={[Function]}
+                      onMouseLeave={[Function]}
+                      onMouseOut={[Function]}
+                      onTouchStart={[Function]}
+                      onTouchTap={[Function]}
+                      style={
+                        Object {
+                          "boxSizing": "border-box",
+                          "fontSize": 0,
+                          "height": 48,
+                          "overflow": "visible",
+                          "padding": 12,
+                          "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                          "width": 48,
+                        }
+                      }
+                    >
+                      <svg
+                        onMouseEnter={[Function]}
+                        onMouseLeave={[Function]}
+                        style={
+                          Object {
+                            "color": "#ffffff",
+                            "display": "inline-block",
+                            "fill": "#ffffff",
+                            "height": 24,
+                            "muiPrepared": true,
+                            "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                            "userSelect": "none",
+                            "width": 24,
+                          }
+                        }
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+                        />
+                      </svg>
+                    </material-ui/internal/EnhancedButton>
+                  </div>
+                  <h1
+                    onTouchTap={[Function]}
+                    style={
+                      Object {
+                        "boxFlex": 1,
+                        "color": "#ffffff",
+                        "flex": "1",
+                        "fontSize": 24,
+                        "fontWeight": 400,
+                        "height": 64,
+                        "letterSpacing": 0,
+                        "lineHeight": "64px",
+                        "margin": 0,
+                        "muiPrepared": true,
+                        "overflow": "hidden",
+                        "paddingTop": 0,
+                        "textOverflow": "ellipsis",
+                        "whiteSpace": "nowrap",
+                      }
+                    }
+                  >
+                    
+                  </h1>
+                </div>
+                <div>
+                  <material-ui/internal/EnhancedButton
+                    containerElement="span"
+                    disableKeyboardFocus={false}
+                    onKeyboardFocus={[Function]}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchStart={[Function]}
+                    open={null}
+                    role="menuitem"
+                    style={
+                      Object {
+                        "backgroundColor": null,
+                        "color": "rgba(0, 0, 0, 0.87)",
+                        "cursor": "pointer",
+                        "display": "block",
+                        "fontSize": 16,
+                        "lineHeight": "48px",
+                        "minHeight": "48px",
+                        "position": "relative",
+                        "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                        "whiteSpace": "nowrap",
+                      }
+                    }
+                  >
+                    <div
+                      style={
+                        Object {
+                          "marginLeft": 0,
+                          "muiPrepared": true,
+                          "paddingBottom": 0,
+                          "paddingLeft": 16,
+                          "paddingRight": 16,
+                          "paddingTop": 0,
+                          "position": "relative",
+                        }
+                      }
+                    >
+                      Menu Item
+                    </div>
+                  </material-ui/internal/EnhancedButton>
+                </div>
+                <div>
+                  <material-ui/internal/EnhancedButton
+                    containerElement="span"
+                    disableKeyboardFocus={false}
+                    onKeyboardFocus={[Function]}
+                    onMouseEnter={[Function]}
+                    onMouseLeave={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchStart={[Function]}
+                    open={null}
+                    role="menuitem"
+                    style={
+                      Object {
+                        "backgroundColor": null,
+                        "color": "rgba(0, 0, 0, 0.87)",
+                        "cursor": "pointer",
+                        "display": "block",
+                        "fontSize": 16,
+                        "lineHeight": "48px",
+                        "minHeight": "48px",
+                        "position": "relative",
+                        "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                        "whiteSpace": "nowrap",
+                      }
+                    }
+                  >
+                    <div
+                      style={
+                        Object {
+                          "marginLeft": 0,
+                          "muiPrepared": true,
+                          "paddingBottom": 0,
+                          "paddingLeft": 16,
+                          "paddingRight": 16,
+                          "paddingTop": 0,
+                          "position": "relative",
+                        }
+                      }
+                    >
+                      Menu Item 2
+                    </div>
+                  </material-ui/internal/EnhancedButton>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <span
+      className="Resizer vertical "
+      onClick={[Function]}
+      onDoubleClick={[Function]}
+      onMouseDown={[Function]}
+      onTouchEnd={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "cursor": "col-resize",
+          "marginRight": -6,
+          "width": 10,
+          "zIndex": 1,
+        }
+      }
+    />
+    <div
+      className="Pane vertical Pane2  "
+      style={
+        Object {
+          "flex": "none",
+          "outline": "none",
+          "position": "relative",
+          "width": 0,
+        }
+      }
+    >
+      <div
+        className="sb-addon-material-ui-theme_sidebar"
+        style={
+          Object {
+            "height": "100%",
+            "width": "100%",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots HighlightText highlighted text 1`] = `
+<div
+  style={
+    Object {
+      "background": "#ffffff",
+      "bottom": 0,
+      "left": 0,
+      "position": "absolute",
+      "right": 0,
+      "top": 0,
+    }
+  }
+>
+  <div
+    className="SplitPane  vertical "
+    style={
+      Object {
+        "MozUserSelect": "text",
+        "WebkitUserSelect": "text",
+        "display": "flex",
+        "flex": 1,
+        "flexDirection": "row",
+        "height": "100%",
+        "left": 0,
+        "msUserSelect": "text",
+        "outline": "none",
+        "overflow": "hidden",
+        "position": "absolute",
+        "right": 0,
+        "userSelect": "text",
+      }
+    }
+  >
+    <div
+      className="Pane vertical Pane1  "
+      style={
+        Object {
+          "flex": 1,
+          "outline": "none",
+          "overflowX": "auto",
+          "overflowY": "auto",
+          "position": "relative",
+        }
+      }
+    >
+      <div>
+        <div>
+          <div>
+            Simple text
+          </div>
+          <div>
+            <span
+              style={
+                Object {
+                  "color": "#f4511e",
+                }
+              }
+            >
+              Highlighted text
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <span
+      className="Resizer vertical "
+      onClick={[Function]}
+      onDoubleClick={[Function]}
+      onMouseDown={[Function]}
+      onTouchEnd={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "cursor": "col-resize",
+          "marginRight": -6,
+          "width": 10,
+          "zIndex": 1,
+        }
+      }
+    />
+    <div
+      className="Pane vertical Pane2  "
+      style={
+        Object {
+          "flex": "none",
+          "outline": "none",
+          "position": "relative",
+          "width": 0,
+        }
+      }
+    >
+      <div
+        className="sb-addon-material-ui-theme_sidebar"
+        style={
+          Object {
+            "height": "100%",
+            "width": "100%",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Login login page 1`] = `
+<div
+  style={
+    Object {
+      "background": "#ffffff",
+      "bottom": 0,
+      "left": 0,
+      "position": "absolute",
+      "right": 0,
+      "top": 0,
+    }
+  }
+>
+  <div
+    className="SplitPane  vertical "
+    style={
+      Object {
+        "MozUserSelect": "text",
+        "WebkitUserSelect": "text",
+        "display": "flex",
+        "flex": 1,
+        "flexDirection": "row",
+        "height": "100%",
+        "left": 0,
+        "msUserSelect": "text",
+        "outline": "none",
+        "overflow": "hidden",
+        "position": "absolute",
+        "right": 0,
+        "userSelect": "text",
+      }
+    }
+  >
+    <div
+      className="Pane vertical Pane1  "
+      style={
+        Object {
+          "flex": 1,
+          "outline": "none",
+          "overflowX": "auto",
+          "overflowY": "auto",
+          "position": "relative",
+        }
+      }
+    >
+      <div>
+        <div
+          style={
+            Object {
+              "display": "flex",
+              "justifyContent": "center",
+              "padding": 30,
+            }
+          }
+        >
+          <div
+            style={
+              Object {
+                "boxSizing": "border-box",
+                "float": "left",
+                "left": "auto",
+                "marginLeft": "0%",
+                "minHeight": "1px",
+                "paddingLeft": "15px",
+                "paddingRight": "15px",
+                "position": "relative",
+                "right": "auto",
+                "width": "100%",
+              }
+            }
+          >
+            <div
+              style={
+                Object {
+                  "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+                  "backgroundColor": "#ffffff",
+                  "borderRadius": 2,
+                  "boxShadow": "0 19px 60px rgba(0, 0, 0, 0.3),
+         0 15px 20px rgba(0, 0, 0, 0.22)",
+                  "boxSizing": "border-box",
+                  "color": "rgba(0, 0, 0, 0.87)",
+                  "fontFamily": "PT Sans Narrow, sans-serif",
+                  "height": "auto",
+                  "margin": "50px auto",
+                  "muiPrepared": true,
+                  "padding": 24,
+                  "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                  "width": 350,
+                }
+              }
+            >
+              <form
+                onSubmit={[Function]}
+              >
+                <div>
+                  <material-ui/TextField
+                    floatingLabelText="Логин"
+                    hintText="Логин"
+                    type="text"
+                  />
+                </div>
+                <div>
+                  <material-ui/TextField
+                    floatingLabelText="Пароль"
+                    hintText="Пароль"
+                    type="password"
+                  />
+                </div>
+                <div>
+                  <div
+                    style={
+                      Object {
+                        "WebkitTapHighlightColor": "rgba(0,0,0,0)",
+                        "backgroundColor": "#ffffff",
+                        "borderRadius": 2,
+                        "boxShadow": "0 1px 6px rgba(0, 0, 0, 0.12),
+         0 1px 4px rgba(0, 0, 0, 0.12)",
+                        "boxSizing": "border-box",
+                        "color": "rgba(0, 0, 0, 0.87)",
+                        "display": "inline-block",
+                        "fontFamily": "PT Sans Narrow, sans-serif",
+                        "minWidth": 88,
+                        "muiPrepared": true,
+                        "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                      }
+                    }
+                  >
+                    <material-ui/internal/EnhancedButton
+                      disabled={false}
+                      focusRippleColor="rgba(0, 0, 0, 0.87)"
+                      focusRippleOpacity={0.1}
+                      onKeyboardFocus={[Function]}
+                      onMouseDown={[Function]}
+                      onMouseEnter={[Function]}
+                      onMouseLeave={[Function]}
+                      onMouseUp={[Function]}
+                      onTouchEnd={[Function]}
+                      onTouchStart={[Function]}
+                      style={
+                        Object {
+                          "backgroundColor": "#ffffff",
+                          "borderRadius": 2,
+                          "height": 36,
+                          "lineHeight": "36px",
+                          "padding": 0,
+                          "textAlign": "center",
+                          "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                          "width": "100%",
+                        }
+                      }
+                      touchRippleColor="rgba(0, 0, 0, 0.87)"
+                      touchRippleOpacity={0.1}
+                      type="submit"
+                    >
+                      <div
+                        style={
+                          Object {
+                            "backgroundColor": false,
+                            "borderRadius": 2,
+                            "height": 36,
+                            "muiPrepared": true,
+                            "top": 0,
+                            "transition": "all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms",
+                          }
+                        }
+                      >
+                        Войти
+                      </div>
+                    </material-ui/internal/EnhancedButton>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <span
+      className="Resizer vertical "
+      onClick={[Function]}
+      onDoubleClick={[Function]}
+      onMouseDown={[Function]}
+      onTouchEnd={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "cursor": "col-resize",
+          "marginRight": -6,
+          "width": 10,
+          "zIndex": 1,
+        }
+      }
+    />
+    <div
+      className="Pane vertical Pane2  "
+      style={
+        Object {
+          "flex": "none",
+          "outline": "none",
+          "position": "relative",
+          "width": 0,
+        }
+      }
+    >
+      <div
+        className="sb-addon-material-ui-theme_sidebar"
+        style={
+          Object {
+            "height": "100%",
+            "width": "100%",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots SearchField Controlled component with initial value 1`] = `
+<div
+  style={
+    Object {
+      "background": "#ffffff",
+      "bottom": 0,
+      "left": 0,
+      "position": "absolute",
+      "right": 0,
+      "top": 0,
+    }
+  }
+>
+  <div
+    className="SplitPane  vertical "
+    style={
+      Object {
+        "MozUserSelect": "text",
+        "WebkitUserSelect": "text",
+        "display": "flex",
+        "flex": 1,
+        "flexDirection": "row",
+        "height": "100%",
+        "left": 0,
+        "msUserSelect": "text",
+        "outline": "none",
+        "overflow": "hidden",
+        "position": "absolute",
+        "right": 0,
+        "userSelect": "text",
+      }
+    }
+  >
+    <div
+      className="Pane vertical Pane1  "
+      style={
+        Object {
+          "flex": 1,
+          "outline": "none",
+          "overflowX": "auto",
+          "overflowY": "auto",
+          "position": "relative",
+        }
+      }
+    >
+      <div>
+        <div
+          style={
+            Object {
+              "width": "50%",
+            }
+          }
+        >
+          <material-ui/TextField
+            floatingLabelText="Найти профиль"
+            fullWidth={true}
+            hintStyle={
+              Object {
+                "color": "#222",
+              }
+            }
+            name="search"
+            onChange={[Function]}
+            style={
+              Object {
+                "color": "#222",
+                "fontSize": "14px",
+              }
+            }
+            value="some value"
+          />
+           
+        </div>
+      </div>
+    </div>
+    <span
+      className="Resizer vertical "
+      onClick={[Function]}
+      onDoubleClick={[Function]}
+      onMouseDown={[Function]}
+      onTouchEnd={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "cursor": "col-resize",
+          "marginRight": -6,
+          "width": 10,
+          "zIndex": 1,
+        }
+      }
+    />
+    <div
+      className="Pane vertical Pane2  "
+      style={
+        Object {
+          "flex": "none",
+          "outline": "none",
+          "position": "relative",
+          "width": 0,
+        }
+      }
+    >
+      <div
+        className="sb-addon-material-ui-theme_sidebar"
+        style={
+          Object {
+            "height": "100%",
+            "width": "100%",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots SearchField Uncontrolled Component 1`] = `
+<div
+  style={
+    Object {
+      "background": "#ffffff",
+      "bottom": 0,
+      "left": 0,
+      "position": "absolute",
+      "right": 0,
+      "top": 0,
+    }
+  }
+>
+  <div
+    className="SplitPane  vertical "
+    style={
+      Object {
+        "MozUserSelect": "text",
+        "WebkitUserSelect": "text",
+        "display": "flex",
+        "flex": 1,
+        "flexDirection": "row",
+        "height": "100%",
+        "left": 0,
+        "msUserSelect": "text",
+        "outline": "none",
+        "overflow": "hidden",
+        "position": "absolute",
+        "right": 0,
+        "userSelect": "text",
+      }
+    }
+  >
+    <div
+      className="Pane vertical Pane1  "
+      style={
+        Object {
+          "flex": 1,
+          "outline": "none",
+          "overflowX": "auto",
+          "overflowY": "auto",
+          "position": "relative",
+        }
+      }
+    >
+      <div>
+        <div
+          style={
+            Object {
+              "width": "50%",
+            }
+          }
+        >
+          <material-ui/TextField
+            floatingLabelText="Найти профиль"
+            fullWidth={true}
+            hintStyle={
+              Object {
+                "color": "#222",
+              }
+            }
+            name="search"
+            onChange={[Function]}
+            style={
+              Object {
+                "color": "#222",
+                "fontSize": "14px",
+              }
+            }
+          />
+           
+        </div>
+      </div>
+    </div>
+    <span
+      className="Resizer vertical "
+      onClick={[Function]}
+      onDoubleClick={[Function]}
+      onMouseDown={[Function]}
+      onTouchEnd={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "cursor": "col-resize",
+          "marginRight": -6,
+          "width": 10,
+          "zIndex": 1,
+        }
+      }
+    />
+    <div
+      className="Pane vertical Pane2  "
+      style={
+        Object {
+          "flex": "none",
+          "outline": "none",
+          "position": "relative",
+          "width": 0,
+        }
+      }
+    >
+      <div
+        className="sb-addon-material-ui-theme_sidebar"
+        style={
+          Object {
+            "height": "100%",
+            "width": "100%",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots SearchField Uncontrolled Component with initial value 1`] = `
+<div
+  style={
+    Object {
+      "background": "#ffffff",
+      "bottom": 0,
+      "left": 0,
+      "position": "absolute",
+      "right": 0,
+      "top": 0,
+    }
+  }
+>
+  <div
+    className="SplitPane  vertical "
+    style={
+      Object {
+        "MozUserSelect": "text",
+        "WebkitUserSelect": "text",
+        "display": "flex",
+        "flex": 1,
+        "flexDirection": "row",
+        "height": "100%",
+        "left": 0,
+        "msUserSelect": "text",
+        "outline": "none",
+        "overflow": "hidden",
+        "position": "absolute",
+        "right": 0,
+        "userSelect": "text",
+      }
+    }
+  >
+    <div
+      className="Pane vertical Pane1  "
+      style={
+        Object {
+          "flex": 1,
+          "outline": "none",
+          "overflowX": "auto",
+          "overflowY": "auto",
+          "position": "relative",
+        }
+      }
+    >
+      <div>
+        <div
+          style={
+            Object {
+              "width": "50%",
+            }
+          }
+        >
+          <material-ui/TextField
+            defaultValue="defaultValue"
+            floatingLabelText="Найти профиль"
+            fullWidth={true}
+            hintStyle={
+              Object {
+                "color": "#222",
+              }
+            }
+            name="search"
+            onChange={[Function]}
+            style={
+              Object {
+                "color": "#222",
+                "fontSize": "14px",
+              }
+            }
+          />
+           
+        </div>
+      </div>
+    </div>
+    <span
+      className="Resizer vertical "
+      onClick={[Function]}
+      onDoubleClick={[Function]}
+      onMouseDown={[Function]}
+      onTouchEnd={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "cursor": "col-resize",
+          "marginRight": -6,
+          "width": 10,
+          "zIndex": 1,
+        }
+      }
+    />
+    <div
+      className="Pane vertical Pane2  "
+      style={
+        Object {
+          "flex": "none",
+          "outline": "none",
+          "position": "relative",
+          "width": 0,
+        }
+      }
+    >
+      <div
+        className="sb-addon-material-ui-theme_sidebar"
+        style={
+          Object {
+            "height": "100%",
+            "width": "100%",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots SelectMultiple Multiple 1`] = `
+<div
+  style={
+    Object {
+      "background": "#ffffff",
+      "bottom": 0,
+      "left": 0,
+      "position": "absolute",
+      "right": 0,
+      "top": 0,
+    }
+  }
+>
+  <div
+    className="SplitPane  vertical "
+    style={
+      Object {
+        "MozUserSelect": "text",
+        "WebkitUserSelect": "text",
+        "display": "flex",
+        "flex": 1,
+        "flexDirection": "row",
+        "height": "100%",
+        "left": 0,
+        "msUserSelect": "text",
+        "outline": "none",
+        "overflow": "hidden",
+        "position": "absolute",
+        "right": 0,
+        "userSelect": "text",
+      }
+    }
+  >
+    <div
+      className="Pane vertical Pane1  "
+      style={
+        Object {
+          "flex": 1,
+          "outline": "none",
+          "overflowX": "auto",
+          "overflowY": "auto",
+          "position": "relative",
+        }
+      }
+    >
+      <div>
+        <div
+          style={
+            Object {
+              "width": "50%",
+            }
+          }
+        >
+          <div
+            className="selectContainer"
+          >
+            <div
+              style={
+                Object {
+                  "width": "100%",
+                }
+              }
+            >
+              <div
+                className="Select-placeholder-custom"
+                style={
+                  Object {
+                    "color": "rgba(0, 0, 0, 0.3)",
+                  }
+                }
+              >
+                Выберите значение
+              </div>
+              <div
+                className="Select is-clearable is-searchable Select--multi"
+              >
+                <div
+                  className="Select-control"
+                  onKeyDown={[Function]}
+                  onMouseDown={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchMove={[Function]}
+                  onTouchStart={[Function]}
+                >
+                  <div
+                    className="Select-multi-value-wrapper"
+                    id="react-select-3--value"
+                  >
+                    <div
+                      className="Select-placeholder"
+                    >
+                      Выберите значение
+                    </div>
+                    <div
+                      className="Select-input"
+                      style={
+                        Object {
+                          "display": "inline-block",
+                        }
+                      }
+                    >
+                      <input
+                        aria-activedescendant="react-select-3--value"
+                        aria-expanded="false"
+                        aria-haspopup="false"
+                        aria-owns=""
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onFocus={[Function]}
+                        required={false}
+                        role="combobox"
+                        style={
+                          Object {
+                            "boxSizing": "content-box",
+                            "width": "5px",
+                          }
+                        }
+                        value=""
+                      />
+                      <div
+                        style={
+                          Object {
+                            "height": 0,
+                            "left": 0,
+                            "overflow": "scroll",
+                            "position": "absolute",
+                            "top": 0,
+                            "visibility": "hidden",
+                            "whiteSpace": "pre",
+                          }
+                        }
+                      >
+                        
+                      </div>
+                    </div>
+                  </div>
+                  <span
+                    className="Select-arrow-zone"
+                    onMouseDown={[Function]}
+                  >
+                    <span
+                      className="Select-arrow"
+                      onMouseDown={[Function]}
+                    />
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <span
+      className="Resizer vertical "
+      onClick={[Function]}
+      onDoubleClick={[Function]}
+      onMouseDown={[Function]}
+      onTouchEnd={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "cursor": "col-resize",
+          "marginRight": -6,
+          "width": 10,
+          "zIndex": 1,
+        }
+      }
+    />
+    <div
+      className="Pane vertical Pane2  "
+      style={
+        Object {
+          "flex": "none",
+          "outline": "none",
+          "position": "relative",
+          "width": 0,
+        }
+      }
+    >
+      <div
+        className="sb-addon-material-ui-theme_sidebar"
+        style={
+          Object {
+            "height": "100%",
+            "width": "100%",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots SelectMultiple Multiple with highlighted element 1`] = `
+<div
+  style={
+    Object {
+      "background": "#ffffff",
+      "bottom": 0,
+      "left": 0,
+      "position": "absolute",
+      "right": 0,
+      "top": 0,
+    }
+  }
+>
+  <div
+    className="SplitPane  vertical "
+    style={
+      Object {
+        "MozUserSelect": "text",
+        "WebkitUserSelect": "text",
+        "display": "flex",
+        "flex": 1,
+        "flexDirection": "row",
+        "height": "100%",
+        "left": 0,
+        "msUserSelect": "text",
+        "outline": "none",
+        "overflow": "hidden",
+        "position": "absolute",
+        "right": 0,
+        "userSelect": "text",
+      }
+    }
+  >
+    <div
+      className="Pane vertical Pane1  "
+      style={
+        Object {
+          "flex": 1,
+          "outline": "none",
+          "overflowX": "auto",
+          "overflowY": "auto",
+          "position": "relative",
+        }
+      }
+    >
+      <div>
+        <div
+          style={
+            Object {
+              "width": "50%",
+            }
+          }
+        >
+          <div
+            className="selectContainer"
+          >
+            <div
+              style={
+                Object {
+                  "width": "100%",
+                }
+              }
+            >
+              <div
+                className="Select-placeholder-custom"
+                style={
+                  Object {
+                    "color": "rgba(0, 0, 0, 0.3)",
+                  }
+                }
+              >
+                Выберите значение
+              </div>
+              <div
+                className="Select is-clearable is-searchable Select--multi"
+              >
+                <div
+                  className="Select-control"
+                  onKeyDown={[Function]}
+                  onMouseDown={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchMove={[Function]}
+                  onTouchStart={[Function]}
+                >
+                  <div
+                    className="Select-multi-value-wrapper"
+                    id="react-select-4--value"
+                  >
+                    <div
+                      className="Select-placeholder"
+                    >
+                      Выберите значение
+                    </div>
+                    <div
+                      className="Select-input"
+                      style={
+                        Object {
+                          "display": "inline-block",
+                        }
+                      }
+                    >
+                      <input
+                        aria-activedescendant="react-select-4--value"
+                        aria-expanded="false"
+                        aria-haspopup="false"
+                        aria-owns=""
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onFocus={[Function]}
+                        required={false}
+                        role="combobox"
+                        style={
+                          Object {
+                            "boxSizing": "content-box",
+                            "width": "5px",
+                          }
+                        }
+                        value=""
+                      />
+                      <div
+                        style={
+                          Object {
+                            "height": 0,
+                            "left": 0,
+                            "overflow": "scroll",
+                            "position": "absolute",
+                            "top": 0,
+                            "visibility": "hidden",
+                            "whiteSpace": "pre",
+                          }
+                        }
+                      >
+                        
+                      </div>
+                    </div>
+                  </div>
+                  <span
+                    className="Select-arrow-zone"
+                    onMouseDown={[Function]}
+                  >
+                    <span
+                      className="Select-arrow"
+                      onMouseDown={[Function]}
+                    />
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <span
+      className="Resizer vertical "
+      onClick={[Function]}
+      onDoubleClick={[Function]}
+      onMouseDown={[Function]}
+      onTouchEnd={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "cursor": "col-resize",
+          "marginRight": -6,
+          "width": 10,
+          "zIndex": 1,
+        }
+      }
+    />
+    <div
+      className="Pane vertical Pane2  "
+      style={
+        Object {
+          "flex": "none",
+          "outline": "none",
+          "position": "relative",
+          "width": 0,
+        }
+      }
+    >
+      <div
+        className="sb-addon-material-ui-theme_sidebar"
+        style={
+          Object {
+            "height": "100%",
+            "width": "100%",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots SelectMultiple Single 1`] = `
+<div
+  style={
+    Object {
+      "background": "#ffffff",
+      "bottom": 0,
+      "left": 0,
+      "position": "absolute",
+      "right": 0,
+      "top": 0,
+    }
+  }
+>
+  <div
+    className="SplitPane  vertical "
+    style={
+      Object {
+        "MozUserSelect": "text",
+        "WebkitUserSelect": "text",
+        "display": "flex",
+        "flex": 1,
+        "flexDirection": "row",
+        "height": "100%",
+        "left": 0,
+        "msUserSelect": "text",
+        "outline": "none",
+        "overflow": "hidden",
+        "position": "absolute",
+        "right": 0,
+        "userSelect": "text",
+      }
+    }
+  >
+    <div
+      className="Pane vertical Pane1  "
+      style={
+        Object {
+          "flex": 1,
+          "outline": "none",
+          "overflowX": "auto",
+          "overflowY": "auto",
+          "position": "relative",
+        }
+      }
+    >
+      <div>
+        <div
+          style={
+            Object {
+              "width": "50%",
+            }
+          }
+        >
+          <div
+            className="selectContainer"
+          >
+            <div
+              style={
+                Object {
+                  "width": "100%",
+                }
+              }
+            >
+              <div
+                className="Select-placeholder-custom"
+                style={
+                  Object {
+                    "color": "rgba(0, 0, 0, 0.3)",
+                  }
+                }
+              >
+                Выберите значение
+              </div>
+              <div
+                className="Select is-clearable is-searchable Select--single"
+              >
+                <div
+                  className="Select-control"
+                  onKeyDown={[Function]}
+                  onMouseDown={[Function]}
+                  onTouchEnd={[Function]}
+                  onTouchMove={[Function]}
+                  onTouchStart={[Function]}
+                >
+                  <div
+                    className="Select-multi-value-wrapper"
+                    id="react-select-2--value"
+                  >
+                    <div
+                      className="Select-placeholder"
+                    >
+                      Выберите значение
+                    </div>
+                    <div
+                      className="Select-input"
+                      style={
+                        Object {
+                          "display": "inline-block",
+                        }
+                      }
+                    >
+                      <input
+                        aria-activedescendant="react-select-2--value"
+                        aria-expanded="false"
+                        aria-haspopup="false"
+                        aria-owns=""
+                        onBlur={[Function]}
+                        onChange={[Function]}
+                        onFocus={[Function]}
+                        required={false}
+                        role="combobox"
+                        style={
+                          Object {
+                            "boxSizing": "content-box",
+                            "width": "5px",
+                          }
+                        }
+                        value=""
+                      />
+                      <div
+                        style={
+                          Object {
+                            "height": 0,
+                            "left": 0,
+                            "overflow": "scroll",
+                            "position": "absolute",
+                            "top": 0,
+                            "visibility": "hidden",
+                            "whiteSpace": "pre",
+                          }
+                        }
+                      >
+                        
+                      </div>
+                    </div>
+                  </div>
+                  <span
+                    className="Select-arrow-zone"
+                    onMouseDown={[Function]}
+                  >
+                    <span
+                      className="Select-arrow"
+                      onMouseDown={[Function]}
+                    />
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <span
+      className="Resizer vertical "
+      onClick={[Function]}
+      onDoubleClick={[Function]}
+      onMouseDown={[Function]}
+      onTouchEnd={[Function]}
+      onTouchStart={[Function]}
+      style={
+        Object {
+          "cursor": "col-resize",
+          "marginRight": -6,
+          "width": 10,
+          "zIndex": 1,
+        }
+      }
+    />
+    <div
+      className="Pane vertical Pane2  "
+      style={
+        Object {
+          "flex": "none",
+          "outline": "none",
+          "position": "relative",
+          "width": 0,
+        }
+      }
+    >
+      <div
+        className="sb-addon-material-ui-theme_sidebar"
+        style={
+          Object {
+            "height": "100%",
+            "width": "100%",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots XmlPanel Valid wellformed xml 1`] = `
+<pre
+  style={
+    Object {
+      "background": "#eee",
+      "color": "black",
+      "display": "block",
+      "overflowX": "auto",
+      "padding": "0.5em",
+    }
+  }
+>
+  <code>
+    &lt;?xml version='1.0' encoding='UTF-8' ?&gt;
+
+    <span
+      style={
+        Object {
+          "color": "#007700",
+        }
+      }
+    >
+      &lt;
+      <span
+        style={
+          Object {
+            "color": "#007700",
+          }
+        }
+      >
+        xsd:schema
+      </span>
+       
+      <span
+        className={
+          Array [
+            "hljs-attr",
+          ]
+        }
+        style={Object {}}
+      >
+        xmlns:xsd
+      </span>
+      =
+      <span
+        style={
+          Object {
+            "color": "#d14",
+          }
+        }
+      >
+        "http://www.w3.org/2001/XMLSchema"
+      </span>
+      &gt;
+    </span>
+    
+  
+    <span
+      style={
+        Object {
+          "color": "#007700",
+        }
+      }
+    >
+      &lt;
+      <span
+        style={
+          Object {
+            "color": "#007700",
+          }
+        }
+      >
+        xsd:element
+      </span>
+       
+      <span
+        className={
+          Array [
+            "hljs-attr",
+          ]
+        }
+        style={Object {}}
+      >
+        name
+      </span>
+      =
+      <span
+        style={
+          Object {
+            "color": "#d14",
+          }
+        }
+      >
+        "designator"
+      </span>
+       
+      <span
+        className={
+          Array [
+            "hljs-attr",
+          ]
+        }
+        style={Object {}}
+      >
+        type
+      </span>
+      =
+      <span
+        style={
+          Object {
+            "color": "#d14",
+          }
+        }
+      >
+        "designatorCodeType"
+      </span>
+      /&gt;
+    </span>
+    
+  
+    <span
+      style={
+        Object {
+          "color": "#007700",
+        }
+      }
+    >
+      &lt;
+      <span
+        style={
+          Object {
+            "color": "#007700",
+          }
+        }
+      >
+        xsd:complexType
+      </span>
+       
+      <span
+        className={
+          Array [
+            "hljs-attr",
+          ]
+        }
+        style={Object {}}
+      >
+        name
+      </span>
+      =
+      <span
+        style={
+          Object {
+            "color": "#d14",
+          }
+        }
+      >
+        "designatorCodeType"
+      </span>
+      &gt;
+    </span>
+    
+    
+    <span
+      style={
+        Object {
+          "color": "#007700",
+        }
+      }
+    >
+      &lt;
+      <span
+        style={
+          Object {
+            "color": "#007700",
+          }
+        }
+      >
+        xsd:sequence
+      </span>
+      &gt;
+    </span>
+    
+      
+    <span
+      style={
+        Object {
+          "color": "#007700",
+        }
+      }
+    >
+      &lt;
+      <span
+        style={
+          Object {
+            "color": "#007700",
+          }
+        }
+      >
+        xsd:element
+      </span>
+       
+      <span
+        className={
+          Array [
+            "hljs-attr",
+          ]
+        }
+        style={Object {}}
+      >
+        name
+      </span>
+      =
+      <span
+        style={
+          Object {
+            "color": "#d14",
+          }
+        }
+      >
+        "code"
+      </span>
+       
+      <span
+        className={
+          Array [
+            "hljs-attr",
+          ]
+        }
+        style={Object {}}
+      >
+        type
+      </span>
+      =
+      <span
+        style={
+          Object {
+            "color": "#d14",
+          }
+        }
+      >
+        "xsd:string"
+      </span>
+       /&gt;
+    </span>
+    
+    
+    <span
+      style={
+        Object {
+          "color": "#007700",
+        }
+      }
+    >
+      &lt;/
+      <span
+        style={
+          Object {
+            "color": "#007700",
+          }
+        }
+      >
+        xsd:sequence
+      </span>
+      &gt;
+    </span>
+    
+  
+    <span
+      style={
+        Object {
+          "color": "#007700",
+        }
+      }
+    >
+      &lt;/
+      <span
+        style={
+          Object {
+            "color": "#007700",
+          }
+        }
+      >
+        xsd:complexType
+      </span>
+      &gt;
+    </span>
+    
+
+    <span
+      style={
+        Object {
+          "color": "#007700",
+        }
+      }
+    >
+      &lt;/
+      <span
+        style={
+          Object {
+            "color": "#007700",
+          }
+        }
+      >
+        xsd:schema
+      </span>
+      &gt;
+    </span>
+    
+
+  </code>
+</pre>
+`;
+
+exports[`Storyshots XmlPanel Wellformed xml 1`] = `
+<pre
+  style={
+    Object {
+      "background": "#eee",
+      "color": "black",
+      "display": "block",
+      "overflowX": "auto",
+      "padding": "0.5em",
+    }
+  }
+>
+  <code>
+    <span
+      style={
+        Object {
+          "color": "#007700",
+        }
+      }
+    >
+      &lt;
+      <span
+        style={
+          Object {
+            "color": "#007700",
+          }
+        }
+      >
+        location
+      </span>
+      &gt;
+    </span>
+    
+  
+    <span
+      style={
+        Object {
+          "color": "#007700",
+        }
+      }
+    >
+      &lt;
+      <span
+        style={
+          Object {
+            "color": "#007700",
+          }
+        }
+      >
+        country
+      </span>
+      &gt;
+    </span>
+    
+    
+    <span
+      style={
+        Object {
+          "color": "#007700",
+        }
+      }
+    >
+      &lt;
+      <span
+        style={
+          Object {
+            "color": "#007700",
+          }
+        }
+      >
+        country
+      </span>
+      &gt;
+    </span>
+    Россия
+    <span
+      style={
+        Object {
+          "color": "#007700",
+        }
+      }
+    >
+      &lt;/
+      <span
+        style={
+          Object {
+            "color": "#007700",
+          }
+        }
+      >
+        country
+      </span>
+      &gt;
+    </span>
+    
+    
+    <span
+      style={
+        Object {
+          "color": "#007700",
+        }
+      }
+    >
+      &lt;
+      <span
+        style={
+          Object {
+            "color": "#007700",
+          }
+        }
+      >
+        iso2
+      </span>
+      &gt;
+    </span>
+    RU
+    <span
+      style={
+        Object {
+          "color": "#007700",
+        }
+      }
+    >
+      &lt;/
+      <span
+        style={
+          Object {
+            "color": "#007700",
+          }
+        }
+      >
+        iso2
+      </span>
+      &gt;
+    </span>
+    
+  
+    <span
+      style={
+        Object {
+          "color": "#007700",
+        }
+      }
+    >
+      &lt;/
+      <span
+        style={
+          Object {
+            "color": "#007700",
+          }
+        }
+      >
+        country
+      </span>
+      &gt;
+    </span>
+    
+  
+    <span
+      style={
+        Object {
+          "color": "#007700",
+        }
+      }
+    >
+      &lt;
+      <span
+        style={
+          Object {
+            "color": "#007700",
+          }
+        }
+      >
+        index
+      </span>
+      &gt;
+    </span>
+    119001
+    <span
+      style={
+        Object {
+          "color": "#007700",
+        }
+      }
+    >
+      &lt;/
+      <span
+        style={
+          Object {
+            "color": "#007700",
+          }
+        }
+      >
+        index
+      </span>
+      &gt;
+    </span>
+    
+  
+    <span
+      style={
+        Object {
+          "color": "#007700",
+        }
+      }
+    >
+      &lt;
+      <span
+        style={
+          Object {
+            "color": "#007700",
+          }
+        }
+      >
+        town
+      </span>
+      &gt;
+    </span>
+    Москва
+    <span
+      style={
+        Object {
+          "color": "#007700",
+        }
+      }
+    >
+      &lt;/
+      <span
+        style={
+          Object {
+            "color": "#007700",
+          }
+        }
+      >
+        town
+      </span>
+      &gt;
+    </span>
+    
+  
+    <span
+      style={
+        Object {
+          "color": "#007700",
+        }
+      }
+    >
+      &lt;
+      <span
+        style={
+          Object {
+            "color": "#007700",
+          }
+        }
+      >
+        street
+      </span>
+      &gt;
+    </span>
+    аэропорт Шереметьево
+    <span
+      style={
+        Object {
+          "color": "#007700",
+        }
+      }
+    >
+      &lt;/
+      <span
+        style={
+          Object {
+            "color": "#007700",
+          }
+        }
+      >
+        street
+      </span>
+      &gt;
+    </span>
+    
+  
+    <span
+      style={
+        Object {
+          "color": "#007700",
+        }
+      }
+    >
+      &lt;
+      <span
+        style={
+          Object {
+            "color": "#007700",
+          }
+        }
+      >
+        house
+      </span>
+      &gt;
+    </span>
+    
+    
+    <span
+      style={
+        Object {
+          "color": "#007700",
+        }
+      }
+    >
+      &lt;
+      <span
+        style={
+          Object {
+            "color": "#007700",
+          }
+        }
+      >
+        house
+      </span>
+      &gt;
+    </span>
+    терминал D
+    <span
+      style={
+        Object {
+          "color": "#007700",
+        }
+      }
+    >
+      &lt;/
+      <span
+        style={
+          Object {
+            "color": "#007700",
+          }
+        }
+      >
+        house
+      </span>
+      &gt;
+    </span>
+    
+  
+    <span
+      style={
+        Object {
+          "color": "#007700",
+        }
+      }
+    >
+      &lt;/
+      <span
+        style={
+          Object {
+            "color": "#007700",
+          }
+        }
+      >
+        house
+      </span>
+      &gt;
+    </span>
+    
+  
+    <span
+      style={
+        Object {
+          "color": "#007700",
+        }
+      }
+    >
+      &lt;
+      <span
+        style={
+          Object {
+            "color": "#007700",
+          }
+        }
+      >
+        flat
+      </span>
+      &gt;
+    </span>
+    2
+    <span
+      style={
+        Object {
+          "color": "#007700",
+        }
+      }
+    >
+      &lt;/
+      <span
+        style={
+          Object {
+            "color": "#007700",
+          }
+        }
+      >
+        flat
+      </span>
+      &gt;
+    </span>
+    
+
+    <span
+      style={
+        Object {
+          "color": "#007700",
+        }
+      }
+    >
+      &lt;/
+      <span
+        style={
+          Object {
+            "color": "#007700",
+          }
+        }
+      >
+        location
+      </span>
+      &gt;
+    </span>
+    
+
+  </code>
+</pre>
+`;

@@ -17,7 +17,7 @@
   },
   "scripts": {
     "prebuild": "rimraf build",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "npm run prebuild && babel --watch ./src --out-dir ./build --ignore *.stories.js --copy-files",
     "build": "rimraf build && babel ./src --out-dir ./build --ignore *.stories.js --copy-files",
     "storybook": "start-storybook -p 6006 -c .storybook",
@@ -36,6 +36,7 @@
     "@storybook/addon-jest": "^3.4.10",
     "@storybook/addon-knobs": "^3.4.10",
     "@storybook/addon-options": "^3.4.10",
+    "@storybook/addon-storyshots": "^3.4.10",
     "@storybook/addon-viewport": "^3.4.10",
     "@storybook/react": "^3.2.8",
     "babel-cli": "^6.24.1",
@@ -54,6 +55,7 @@
     "react": "^15.4.2",
     "react-dom": "^15.3.2",
     "react-tap-event-plugin": "^2.0.1",
+    "react-test-renderer": "^15.4.2",
     "rimraf": "^2.6.2",
     "sass-loader": "^7.1.0",
     "storybook-addon-material-ui": "^0.7.10",
@@ -66,5 +68,11 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SirenaTravel/modelViewer-UI.git"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/.jest/__mocks__/fileMock.js",
+      "\\.(css|less|scss)$": "<rootDir>/.jest/__mocks__/styleMock.js"
+    }
   }
 }
