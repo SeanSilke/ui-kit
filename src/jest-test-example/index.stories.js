@@ -7,4 +7,4 @@ import { withTests } from '@storybook/addon-jest';
 //https://github.com/storybooks/storybook/tree/release/3.4/addons/jest
 storiesOf('__Jest', module)
   .addDecorator(withTests({ results })('sum'))
-  .add('withTests', () => <div>Jest results fri sum function in storybook</div>);
+  .add('withTests', () => <div>The result of Jest test of the sum function</div>);

@@ -306,7 +306,7 @@ exports[`Storyshots __Info withInfo 1`] = `
 
 exports[`Storyshots __Jest withTests 1`] = `
 <div>
-  Jest results fri sum function in storybook
+  The result of Jest test of the sum function
 </div>
 `;
 
