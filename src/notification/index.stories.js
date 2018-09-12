@@ -5,7 +5,7 @@ import { themesList } from '../ui-themes';
 import { Notification } from './index';
 import { action } from '@storybook/addon-actions';
 
-storiesOf('Notificaton', module)
+storiesOf('Notification', module)
   .addDecorator(story => {
     const storyKind = story();
     return <div style={{ display: 'flex', justifyContent: 'center', padding: 30 }}>{storyKind}</div>;
