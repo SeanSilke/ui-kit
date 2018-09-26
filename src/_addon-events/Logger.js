@@ -20,18 +20,18 @@ const styles = {
 
 export class Logger extends Component {
 
-  state = {
-    events: [],
-  };
-
-  componentWillMount() {
-    const { emiter } = this.props;
-
+  constructor(props) {
+    super(props);
+    const { emiter } = props;
     emiter.on(EVENTS.TEST_EVENT_1, this.onEventHandler(EVENTS.TEST_EVENT_1));
     emiter.on(EVENTS.TEST_EVENT_2, this.onEventHandler(EVENTS.TEST_EVENT_2));
     emiter.on(EVENTS.TEST_EVENT_3, this.onEventHandler(EVENTS.TEST_EVENT_3));
     emiter.on(EVENTS.TEST_EVENT_4, this.onEventHandler(EVENTS.TEST_EVENT_4));
   }
+
+  state = {
+    events: [],
+  };
 
   onEventHandler = name =>
     (payload) => {
