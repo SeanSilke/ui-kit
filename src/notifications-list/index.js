@@ -11,33 +11,35 @@ export class NotificationsList extends Component {
       this.props.queue
       && this.props.queue.slice(0, 3).map(item => {
         return (
-          <ReactCSSTransitionGroup
-            transitionName="notification"
-            transitionAppear={true}
-            transitionLeaveTimeout={600}
-            transitionEnterTimeout={300}
-            transitionAppearTimeout={0}
-            key={`transition_${item.id}`}
-          >
-            <Notification
-              clickCallback={this.props.hideNotification}
-              closeIcon={<ActionVisibilityOff color="#fff" style={{ height: '16px', width: '16px' }} />}
-              key={item.id}
-              {...item}
-            />
-          </ReactCSSTransitionGroup>
+          <Notification
+            clickCallback={this.props.hideNotification}
+            closeIcon={<ActionVisibilityOff color="#fff" style={{ height: '16px', width: '16px' }} />}
+            key={item.id}
+            {...item}
+          />
         );
       })
     );
   };
 
   render() {
-    return <div className="notificationsList">{this.props.showList ? this.renderQue() : null}</div>;
+    return (
+      <div className="notificationsList">
+        <ReactCSSTransitionGroup
+          transitionName="notification"
+          transitionLeaveTimeout={300}
+          transitionEnterTimeout={300}
+          key={'transition_$'}
+        >
+          {this.props.showList ? this.renderQue() : null}
+        </ReactCSSTransitionGroup>
+      </div>
+    );
   }
 }
 
 NotificationsList.propTypes = {
   showList: PropTypes.bool,
-  type: PropTypes.string,
-  message: PropTypes.oneOfType([PropTypes.string, PropTypes.node])
+  hideNotification: PropTypes.func
+  // queue: PropTypes.object
 };

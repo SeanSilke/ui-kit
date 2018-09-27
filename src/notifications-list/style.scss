@@ -8,32 +8,18 @@
   flex-direction: column-reverse;
 }
 
-.notification-appear {
-  transform: scale(0);
-  transition: 300ms ease-in-out;
-}
-
-.notification-appear.notification-appear-active {
-  transform: scale(1.1);
-  transition: 300ms ease-in-out;
-}
-
 .notification-enter {
-  transition: 300ms ease-in-out;
-  transform: scale(1);
+  transform: scale(0);
 }
 
 .notification-enter.notification-enter-active {
-  transform: scale(0);
-  transition: 300ms ease-in-out;
+  transform: scale(1.1);
 }
 
 .notification-leave {
-  transition: 300ms ease-in-out;
   transform: scale(1.1);
 }
 
 .notification-leave.notification-leave-active {
   transform: scale(0);
-  transition: 300ms ease-in;
 }
