@@ -8,6 +8,7 @@
     "react-dom": "^15.3.2"
   },
   "dependencies": {
+    "classnames": "^2.2.6",
     "material-ui": "^0.17.0",
     "react-addons-css-transition-group": "^15.6.2",
     "react-grid-system": "^2.9.6",
