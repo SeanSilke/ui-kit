@@ -27,7 +27,7 @@ export class NotificationsList extends Component {
       <div className="notificationsList">
         <ReactCSSTransitionGroup
           transitionName="notification"
-          transitionLeaveTimeout={300}
+          transitionLeaveTimeout={2000}
           transitionEnterTimeout={300}
           key={'transition_$'}
         >
