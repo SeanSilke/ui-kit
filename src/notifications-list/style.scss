@@ -16,14 +16,14 @@
   transform: scale(1.1);
 }
 
-.notification-leave {
+.notification-exit {
   transition: all 0.45s cubic-bezier(0.755, 0.05, 0.855, 0.06); // easeInQuint
   transform: translateX(0) scaleY(1) scaleX(1);
   filter: blur(0);
   opacity: 1;
 }
 
-.notification-leave.notification-leave-active {
+.notification-exit.notification-exit-active {
   transform: translateX(1000px) scaleX(2) scaleY(0.2);
   filter: blur(40px);
   opacity: 0;

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Notification } from '../notification';
 import ActionVisibilityOff from 'material-ui/svg-icons/action/visibility-off';
-import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
+import { TransitionGroup, CSSTransition } from 'react-transition-group';
 import { PropTypes } from 'prop-types';
 import './style.scss';
 
@@ -11,12 +11,14 @@ export class NotificationsList extends Component {
       this.props.queue
       && this.props.queue.slice(0, 3).map(item => {
         return (
-          <Notification
-            clickCallback={this.props.hideNotification}
-            closeIcon={<ActionVisibilityOff color="#fff" style={{ height: '16px', width: '16px' }} />}
-            key={item.id}
-            {...item}
-          />
+          <CSSTransition key={item.id} classNames="notification" timeout={{ enter: 300, exit: 2000 }}>
+            <Notification
+              clickCallback={this.props.hideNotification}
+              closeIcon={<ActionVisibilityOff color="#fff" style={{ height: '16px', width: '16px' }} />}
+              key={item.id}
+              {...item}
+            />
+          </CSSTransition>
         );
       })
     );
@@ -25,14 +27,7 @@ export class NotificationsList extends Component {
   render() {
     return (
       <div className="notificationsList">
-        <ReactCSSTransitionGroup
-          transitionName="notification"
-          transitionLeaveTimeout={2000}
-          transitionEnterTimeout={300}
-          key={'transition_$'}
-        >
-          {this.props.showList ? this.renderQue() : null}
-        </ReactCSSTransitionGroup>
+        <TransitionGroup>{this.props.showList ? this.renderQue() : null}</TransitionGroup>
       </div>
     );
   }
