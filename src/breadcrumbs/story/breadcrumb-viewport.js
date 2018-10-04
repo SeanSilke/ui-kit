@@ -13,7 +13,6 @@ export const BreadCrumbViewport = muiThemeable()(
     }
   }) => {
     const style = {
-      width: '50%',
       backgroundColor,
       lineHeight: height + 'px',
       fontFamily
