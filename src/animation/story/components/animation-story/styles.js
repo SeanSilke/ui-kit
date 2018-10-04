@@ -21,7 +21,7 @@ export const transitionStyles = {
       exiting: { transform: 'translate(100%)', transitionDuration: '0ms' }
     }
   ],
-  right2: [
+  left2: [
     {
       exited: { transform: 'translate(-200%)' },
       entering: { transform: 'translate(0%)' },
@@ -35,7 +35,7 @@ export const transitionStyles = {
       exiting: { transform: 'translate(300%)' }
     }
   ],
-  right1: [
+  left1: [
     {
       exited: { transform: 'translate(-100%)' },
       entering: { transform: 'translate(0%)' },
@@ -47,6 +47,20 @@ export const transitionStyles = {
       entering: { transform: 'translate(100%)' },
       entered: { transform: 'translate(100%)' },
       exiting: { transform: 'translate(200%)' }
+    }
+  ],
+  leftFade: [
+    {
+      exited: { opacity: 0 },
+      entering: { opacity: 1 },
+      entered: { opacity: 1 },
+      exiting: { opacity: 0 }
+    },
+    {
+      exited: { opacity: 0, transform: 'translate(100%)' },
+      entering: { opacity: 1, transform: 'translate(100%)' },
+      entered: { opacity: 1, transform: 'translate(100%)' },
+      exiting: { opacity: 0, transform: 'translate(100%)' }
     }
   ],
   rightFade: [
@@ -79,7 +93,7 @@ export const transitionStyles = {
     }
   ],
 
-  left1: [
+  right1: [
     {
       exited: { transform: 'translate(100%)' },
       entering: { transform: 'translate(0%)' },
@@ -93,7 +107,7 @@ export const transitionStyles = {
       exiting: { transform: 'translate(0%)' }
     }
   ],
-  left2: [
+  right2: [
     {
       exited: { transform: 'translate(200%)' },
       entering: { transform: 'translate(0%)' },
