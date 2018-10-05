@@ -18,42 +18,42 @@ export class AnimationStory extends Component {
     direction: 'still'
   };
 
-  animationFactory = (direction) => {
-    let _this = this;
+  animationFactory = direction => {
     return () => {
-    var keys;
-    var left = _this.state.keys[0];
-    var right = _this.state.keys[1];
-    switch(direction) {
-      case 'right2':
-        keys = [right+1, right+2];
-        break;
-      case 'right1':
-        keys = [right, right+1];
-        break;
-      case 'left2':
-        keys = [left-2, left-1];
-        break;
-      case 'left1':
-        keys = [left-1, left];
-        break;
-      case 'rightFade':
-        keys = [left, right+1];
-        break;
-      case 'leftFade':
-        keys = [left-1, right];
-        break;
-      case 'leftShiftRightFade':
-        keys = [left-1, left];
-        break;
-      case 'still':
-        keys = [1, 2]; 
-        break;
-      default:
-        throw new Error(`unknown animation type '${direction}'`);
-    }
-    this.setState({ keys, direction });
-  }};
+      let keys;
+      const [left, right] = this.state.keys;
+
+      switch (direction) {
+        case 'right2':
+          keys = [right + 1, right + 2];
+          break;
+        case 'right1':
+          keys = [right, right + 1];
+          break;
+        case 'left2':
+          keys = [left - 2, left - 1];
+          break;
+        case 'left1':
+          keys = [left - 1, left];
+          break;
+        case 'rightFade':
+          keys = [left, right + 1];
+          break;
+        case 'leftFade':
+          keys = [left - 1, right];
+          break;
+        case 'leftShiftRightFade':
+          keys = [left - 1, left];
+          break;
+        case 'still':
+          keys = [1, 2];
+          break;
+        default:
+          throw new Error(`unknown animation type '${direction}'`);
+      }
+      this.setState({ keys, direction });
+    };
+  };
 
   right2 = this.animationFactory('right2');
   leftShiftRightFade = this.animationFactory('leftShiftRightFade');
@@ -69,7 +69,7 @@ export class AnimationStory extends Component {
 
   render() {
     const [left, right] = this.state.keys;
-    const resetDisabled = (left === 1) && (right === 2);
+    const resetDisabled = left === 1 && right === 2;
 
     const panelProps = { className: 'animation-panel', duration: ANIMATION_DURATION, defaultStyle };
 
@@ -77,8 +77,7 @@ export class AnimationStory extends Component {
       transitionStyles,
       direction: this.state.direction,
       panelProps,
-      component: AnimationWrapper,
-      onAnimationEnd: () => {console.log('animation ended')}
+      component: AnimationWrapper
     };
     return (
       <div>
@@ -89,50 +88,20 @@ export class AnimationStory extends Component {
           Click the button with animation type to start the animation
         </div>
         <div className={'button-layout'}>
-          <RaisedButton
-            label="2 steps left"
-            primary={true}
-            className={'action-button'}
-            onClick={this.left2}
-          />
-          <RaisedButton
-            label="step left"
-            primary={true}
-            className={'action-button'}
-            onClick={this.left1}
-          />
-          <RaisedButton
-            label="step right"
-            primary={true}
-            className={'action-button'}
-            onClick={this.right1}
-          />
-          <RaisedButton
-            label="2 steps right"
-            primary={true}
-            className={'action-button'}
-            onClick={this.right2}
-          />
+          <RaisedButton label="2 steps left" primary={true} className={'action-button'} onClick={this.left2} />
+          <RaisedButton label="step left" primary={true} className={'action-button'} onClick={this.left1} />
+          <RaisedButton label="step right" primary={true} className={'action-button'} onClick={this.right1} />
+          <RaisedButton label="2 steps right" primary={true} className={'action-button'} onClick={this.right2} />
         </div>
         <div className={'button-layout'}>
-          <RaisedButton
-            label="left fade"
-            primary={true}
-            className={'action-button'}
-            onClick={this.leftFade}
-          />
+          <RaisedButton label="left fade" primary={true} className={'action-button'} onClick={this.leftFade} />
           <RaisedButton
             label="left Shift and Right Fade"
             primary={true}
             className={'action-button'}
             onClick={this.leftShiftRightFade}
           />
-          <RaisedButton
-            label="right Fade"
-            primary={true}
-            className={'action-button'}
-            onClick={this.rightFade}
-          />
+          <RaisedButton label="right Fade" primary={true} className={'action-button'} onClick={this.rightFade} />
         </div>
         <div style={{ textAlign: 'center', marginBottom: 10 }}>Reset panels keys to try new animation</div>
         <RaisedButton label="reset panels keys" disabled={resetDisabled} onClick={this.reset} fullWidth={true} />
