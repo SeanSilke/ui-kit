@@ -7,10 +7,10 @@ import './style.scss';
 
 export class DrawerButton extends Component {
   render() {
-    const { history, toggleDrawer } = this.props;
+    const { queue, toggleDrawer } = this.props;
     return (
       <div className={'notification-drawer-button'}>
-        <Badge badgeContent={history && history.length} primary={true}>
+        <Badge badgeContent={queue.length} primary={true}>
           <FloatingActionButton onClick={toggleDrawer}>
             <NotificationsIcon />
           </FloatingActionButton>
@@ -21,6 +21,6 @@ export class DrawerButton extends Component {
 }
 
 DrawerButton.propTypes = {
-  history: PropTypes.array,
+  queue: PropTypes.array,
   toggleDrawer: PropTypes.func
 };

@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import { Notification } from '../notification';
+import { TransitionGroup, CSSTransition } from 'react-transition-group';
 import classNames from 'classnames';
 import { PropTypes } from 'prop-types';
+
 import './style.scss';
 import { DrawerButton } from './components/drawer-button';
 
@@ -14,25 +16,30 @@ export class NotificationsDrawer extends Component {
 
   render() {
     const { open } = this.state;
-    const { history, deleteNotification } = this.props;
+    const { queue, deleteNotification } = this.props;
     const containerClassName = classNames('notificationsDrawer', { open });
     return (
       <div>
         <div className={containerClassName}>
-          {history.map(item => <Notification key={item.id} {...item} clickCallback={deleteNotification} />)}
+          <TransitionGroup>
+            {queue.map(item => (
+              <CSSTransition key={item.id} classNames="notification-drawer" timeout={{ enter: 300, exit: 300 }}>
+                <Notification key={item.id} {...item} clickCallback={deleteNotification} />
+              </CSSTransition>
+            ))}
+          </TransitionGroup>
         </div>
-        <DrawerButton history={history} toggleDrawer={this.toggleDrawer} />
+        <DrawerButton queue={queue} toggleDrawer={this.toggleDrawer} />
       </div>
     );
   }
 }
 
 NotificationsDrawer.defaultProps = {
-  history: []
+  queue: []
 };
 
 NotificationsDrawer.propTypes = {
-  // changeView  is removed for now. I nned to define what is was for and then add it back
-  history: PropTypes.array,
+  queue: PropTypes.array,
   deleteNotification: PropTypes.func
 };

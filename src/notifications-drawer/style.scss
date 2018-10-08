@@ -15,3 +15,22 @@
   opacity: 1;
   overflow: hidden;
 }
+
+.notification-drawer-enter {
+  transform: scale(0);
+}
+
+.notification-drawer-enter.notification-drawer-enter-active {
+  transform: scale(1);
+}
+
+.notification-drawer-exit {
+}
+
+.notification-drawer-exit.notification-drawer-exit-active {
+  padding: 0px;
+  margin: 0px;
+  min-height: 0;
+  height: 0;
+  transform: scale(0);
+}
