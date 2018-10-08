@@ -9,31 +9,49 @@ export class Story extends Component {
     this.props.emiter.on(ADD_NOTIFICATION, this.updateQueue);
   }
 
-  id = 3;
+  componentWillUnmount() {
+    this.props.emiter.removeListener(ADD_NOTIFICATION);
+  }
 
   state = {
     queue: [
       {
+        message: ' 4',
+        id: '4',
+        reviewed: false
+      },
+      {
+        message: ' 3',
+        id: '3',
+        reviewed: false
+      },
+      {
         message: ' 2',
-        id: '2'
+        id: '2',
+        reviewed: false
       },
       {
         message: ' 1',
-        id: '1'
+        id: '1',
+        reviewed: false
       },
       {
         message: ' 0',
-        id: '0'
+        id: '0',
+        reviewed: false
       }
     ]
   };
+
+  id = this.state.queue.length;
 
   updateQueue = e => {
     const queue = [
       {
         type: 'done',
         message: `${e}. id: ${this.id}`,
-        id: String(this.id)
+        id: String(this.id),
+        reviewed: false
       },
       ...this.state.queue
     ];
@@ -41,10 +59,21 @@ export class Story extends Component {
     this.id++;
   };
 
+  hideNotification = targetId => {
+    const maper = elem => {
+      if (elem.id === targetId) {
+        elem.reviewed = true;
+      }
+      return elem;
+    };
+    const queue = this.state.queue.map(maper);
+    this.setState({ queue });
+  };
+
   render() {
     return (
       <div>
-        <NotificationsList showList queue={this.state.queue} />
+        <NotificationsList hideNotification={this.hideNotification} queue={this.state.queue} />
       </div>
     );
   }

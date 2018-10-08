@@ -3,9 +3,6 @@
   z-index: 10000;
   left: 50%;
   transform: translateX(-50%);
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column-reverse;
 }
 
 .notification-enter {
@@ -24,6 +21,10 @@
 }
 
 .notification-exit.notification-exit-active {
+  padding: 0px;
+  margin: 0px;
+  min-height: 0;
+  height: 0;
   transform: translateX(1000px) scaleX(2) scaleY(0.2);
   filter: blur(40px);
   opacity: 0;

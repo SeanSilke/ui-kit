@@ -25,7 +25,7 @@ export class Notification extends Component {
   };
 
   onClose = () => {
-    const {clickCallback, id} = this.props;
+    const { clickCallback, id } = this.props;
     if (clickCallback) clickCallback(id);
   };
 
@@ -35,7 +35,7 @@ export class Notification extends Component {
         <div className="notificationIcon">{this.getIcon()}</div>
         {this.props.message}
         <div className="notificationClose" onClick={this.onClose}>
-          { this.props.closeIcon }
+          {this.props.closeIcon}
         </div>
       </div>
     );
