@@ -14,7 +14,7 @@ export class NotificationsList extends Component {
 
     return queue.slice(0, 3).map(
       item =>
-        !item.reviewed ? (
+        !item.viewed ? (
           <CSSTransition key={item.id} classNames="notification" timeout={transitionTimeouts}>
             <Notification clickCallback={hideNotification} closeIcon={closeIcon} key={item.id} {...item} />
           </CSSTransition>

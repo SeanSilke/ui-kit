@@ -17,27 +17,27 @@ export class DrawerStory extends Component {
       {
         message: ' 4',
         id: '4',
-        reviewed: false
+        viewed: false
       },
       {
         message: ' 3',
         id: '3',
-        reviewed: false
+        viewed: false
       },
       {
         message: ' 2',
         id: '2',
-        reviewed: false
+        viewed: false
       },
       {
         message: ' 1',
         id: '1',
-        reviewed: false
+        viewed: false
       },
       {
         message: ' 0',
         id: '0',
-        reviewed: false
+        viewed: false
       }
     ]
   };
@@ -52,7 +52,7 @@ export class DrawerStory extends Component {
         type: 'done',
         message: `${e}. id: ${this.id}`,
         id: String(this.id),
-        reviewed: false
+        viewed: false
       },
       ...this.state.queue
     ];
