@@ -12,7 +12,25 @@ export class NotificationsDrawer extends Component {
     open: false
   };
 
-  toggleDrawer = () => this.setState({ open: !this.state.open });
+  toggleDrawer = () => {
+    const { onToggle } = this.props;
+    this.setState({ open: !this.state.open });
+    if (onToggle) onToggle();
+  };
+
+  shouldComponentUpdate({ queue }, { open }) {
+    if (this.state.open !== open) return true;
+    if (this.props.queue.length !== queue.length) return true;
+
+    const idsSet = new Set(this.props.queue.map(elem => elem.id));
+    return queue.some(({ id }) => !idsSet.has(id));
+  }
+
+  componentDidUpdate() {
+    if (this.state.open) {
+      this.props.queue.forEach(elem => this.props.hideNotification(elem.id));
+    }
+  }
 
   render() {
     const { open } = this.state;
@@ -40,6 +58,7 @@ NotificationsDrawer.defaultProps = {
 };
 
 NotificationsDrawer.propTypes = {
+  onToggle: PropTypes.func,
   queue: PropTypes.array,
   deleteNotification: PropTypes.func
 };
