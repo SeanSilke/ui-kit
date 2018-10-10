@@ -9,23 +9,23 @@ const closeIcon = <ActionVisibilityOff color="#fff" style={{ height: '16px', wid
 const transitionTimeouts = { enter: 300, exit: 2000 };
 
 export class NotificationsList extends Component {
-  renderQue = () => {
-    const { queue, hideNotification } = this.props;
-
-    return queue.slice(0, 3).map(
-      item =>
-        !item.viewed ? (
-          <CSSTransition key={item.id} classNames="notification" timeout={transitionTimeouts}>
-            <Notification clickCallback={hideNotification} closeIcon={closeIcon} key={item.id} {...item} />
-          </CSSTransition>
-        ) : null
-    );
-  };
-
   render() {
+    const { queue, hideNotification, isVisible } = this.props;
+    if (!isVisible) return null;
+    const visiblePart = queue.slice(0, 3);
+
     return (
       <div className="notificationsList">
-        <TransitionGroup>{this.renderQue()}</TransitionGroup>
+        <TransitionGroup>
+          {visiblePart.map(
+            item =>
+              !item.viewed ? (
+                <CSSTransition key={item.id} classNames="notification" timeout={transitionTimeouts}>
+                  <Notification clickCallback={hideNotification} closeIcon={closeIcon} key={item.id} {...item} />
+                </CSSTransition>
+              ) : null
+          )}
+        </TransitionGroup>
       </div>
     );
   }
@@ -36,6 +36,7 @@ NotificationsList.defaultProps = {
 };
 
 NotificationsList.propTypes = {
+  isVisible: PropTypes.bool,
   hideNotification: PropTypes.func,
-  queue: PropTypes.object.isRequired
+  queue: PropTypes.array.isRequired
 };
